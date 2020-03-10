@@ -1,0 +1,1547 @@
+example_id                                                             | status  | run_time               |
+---------------------------------------------------------------------- | ------- | ---------------------- |
+./embedded_player/aldi/album/horizontal_spec.rb[1:1:1:1:1:1]           | failed  | 3.31 seconds           |
+./embedded_player/aldi/album/horizontal_spec.rb[1:1:1:1:1:2]           | passed  | 1.5 seconds            |
+./embedded_player/aldi/album/horizontal_spec.rb[1:1:1:1:1:3]           | passed  | 2.84 seconds           |
+./embedded_player/aldi/album/horizontal_spec.rb[1:1:1:1:1:4]           | passed  | 12.21 seconds          |
+./embedded_player/aldi/album/iab-rectangle_spec.rb[1:1:1:1:1:1]        | passed  | 9.38 seconds           |
+./embedded_player/aldi/album/iab-rectangle_spec.rb[1:1:1:1:1:2]        | passed  | 1.2 seconds            |
+./embedded_player/aldi/album/iab-rectangle_spec.rb[1:1:1:1:1:3]        | passed  | 2.79 seconds           |
+./embedded_player/aldi/album/iab-rectangle_spec.rb[1:1:1:1:1:4]        | passed  | 11.26 seconds          |
+./embedded_player/aldi/album/iab-skyscraper_spec.rb[1:1:1:1:1:1]       | passed  | 9.12 seconds           |
+./embedded_player/aldi/album/iab-skyscraper_spec.rb[1:1:1:1:1:2]       | passed  | 1.15 seconds           |
+./embedded_player/aldi/album/iab-skyscraper_spec.rb[1:1:1:1:1:3]       | passed  | 2.79 seconds           |
+./embedded_player/aldi/album/iab-skyscraper_spec.rb[1:1:1:1:1:4]       | passed  | 11.6 seconds           |
+./embedded_player/aldi/album/square_spec.rb[1:1:1:1:1:1]               | passed  | 9.26 seconds           |
+./embedded_player/aldi/album/square_spec.rb[1:1:1:1:1:2]               | passed  | 1.27 seconds           |
+./embedded_player/aldi/album/square_spec.rb[1:1:1:1:1:3]               | passed  | 2.83 seconds           |
+./embedded_player/aldi/album/square_spec.rb[1:1:1:1:1:4]               | passed  | 11.85 seconds          |
+./embedded_player/aldi/album/track_spec.rb[1:1:1:1:1:1]                | passed  | 9.43 seconds           |
+./embedded_player/aldi/album/track_spec.rb[1:1:1:1:1:2]                | passed  | 1.47 seconds           |
+./embedded_player/aldi/album/track_spec.rb[1:1:1:1:1:3]                | passed  | 2.79 seconds           |
+./embedded_player/aldi/album/track_spec.rb[1:1:1:1:1:4]                | passed  | 12.14 seconds          |
+./embedded_player/aldi/artist/horizontal_spec.rb[1:1:1:1:1:1]          | passed  | 10.25 seconds          |
+./embedded_player/aldi/artist/horizontal_spec.rb[1:1:1:1:1:2]          | passed  | 2.14 seconds           |
+./embedded_player/aldi/artist/horizontal_spec.rb[1:1:1:1:1:3]          | passed  | 2.94 seconds           |
+./embedded_player/aldi/artist/horizontal_spec.rb[1:1:1:1:1:4]          | passed  | 11.64 seconds          |
+./embedded_player/aldi/artist/iab-rectangle_spec.rb[1:1:1:1:1:1]       | passed  | 9.76 seconds           |
+./embedded_player/aldi/artist/iab-rectangle_spec.rb[1:1:1:1:1:2]       | passed  | 1.26 seconds           |
+./embedded_player/aldi/artist/iab-rectangle_spec.rb[1:1:1:1:1:3]       | passed  | 2.85 seconds           |
+./embedded_player/aldi/artist/iab-rectangle_spec.rb[1:1:1:1:1:4]       | passed  | 11.49 seconds          |
+./embedded_player/aldi/artist/iab-skyscraper_spec.rb[1:1:1:1:1:1]      | passed  | 9.26 seconds           |
+./embedded_player/aldi/artist/iab-skyscraper_spec.rb[1:1:1:1:1:2]      | passed  | 1.34 seconds           |
+./embedded_player/aldi/artist/iab-skyscraper_spec.rb[1:1:1:1:1:3]      | passed  | 2.89 seconds           |
+./embedded_player/aldi/artist/iab-skyscraper_spec.rb[1:1:1:1:1:4]      | passed  | 11.81 seconds          |
+./embedded_player/aldi/artist/square_spec.rb[1:1:1:1:1:1]              | passed  | 9.44 seconds           |
+./embedded_player/aldi/artist/square_spec.rb[1:1:1:1:1:2]              | passed  | 1.46 seconds           |
+./embedded_player/aldi/artist/square_spec.rb[1:1:1:1:1:3]              | passed  | 2.8 seconds            |
+./embedded_player/aldi/artist/square_spec.rb[1:1:1:1:1:4]              | passed  | 11.9 seconds           |
+./embedded_player/aldi/artist/track_spec.rb[1:1:1:1:1:1]               | passed  | 9.38 seconds           |
+./embedded_player/aldi/artist/track_spec.rb[1:1:1:1:1:2]               | passed  | 1.43 seconds           |
+./embedded_player/aldi/artist/track_spec.rb[1:1:1:1:1:3]               | passed  | 2.8 seconds            |
+./embedded_player/aldi/artist/track_spec.rb[1:1:1:1:1:4]               | passed  | 11.76 seconds          |
+./embedded_player/aldi/default/horizontal_spec.rb[1:1:1:1:1:1]         | passed  | 6.75 seconds           |
+./embedded_player/aldi/default/horizontal_spec.rb[1:1:1:1:1:2]         | passed  | 1.41 seconds           |
+./embedded_player/aldi/default/horizontal_spec.rb[1:1:1:1:1:3]         | passed  | 2.95 seconds           |
+./embedded_player/aldi/default/horizontal_spec.rb[1:1:1:1:1:4]         | passed  | 7.91 seconds           |
+./embedded_player/aldi/default/iab-rectangle_spec.rb[1:1:1:1:1:1]      | passed  | 6.9 seconds            |
+./embedded_player/aldi/default/iab-rectangle_spec.rb[1:1:1:1:1:2]      | passed  | 1.45 seconds           |
+./embedded_player/aldi/default/iab-rectangle_spec.rb[1:1:1:1:1:3]      | passed  | 3.01 seconds           |
+./embedded_player/aldi/default/iab-rectangle_spec.rb[1:1:1:1:1:4]      | passed  | 7.42 seconds           |
+./embedded_player/aldi/default/iab-skyscraper_spec.rb[1:1:1:1:1:1]     | passed  | 7.07 seconds           |
+./embedded_player/aldi/default/iab-skyscraper_spec.rb[1:1:1:1:1:2]     | passed  | 1.49 seconds           |
+./embedded_player/aldi/default/iab-skyscraper_spec.rb[1:1:1:1:1:3]     | passed  | 3.37 seconds           |
+./embedded_player/aldi/default/iab-skyscraper_spec.rb[1:1:1:1:1:4]     | passed  | 8.45 seconds           |
+./embedded_player/aldi/default/square_spec.rb[1:1:1:1:1:1]             | passed  | 6.36 seconds           |
+./embedded_player/aldi/default/square_spec.rb[1:1:1:1:1:2]             | passed  | 1.33 seconds           |
+./embedded_player/aldi/default/square_spec.rb[1:1:1:1:1:3]             | passed  | 2.81 seconds           |
+./embedded_player/aldi/default/square_spec.rb[1:1:1:1:1:4]             | passed  | 7.37 seconds           |
+./embedded_player/aldi/default/track_spec.rb[1:1:1:1:1:1]              | passed  | 7.68 seconds           |
+./embedded_player/aldi/default/track_spec.rb[1:1:1:1:1:2]              | passed  | 1.59 seconds           |
+./embedded_player/aldi/default/track_spec.rb[1:1:1:1:1:3]              | passed  | 2.78 seconds           |
+./embedded_player/aldi/default/track_spec.rb[1:1:1:1:1:4]              | passed  | 7.69 seconds           |
+./embedded_player/aldi/genre/horizontal_spec.rb[1:1:1:1:1:1]           | passed  | 9.18 seconds           |
+./embedded_player/aldi/genre/horizontal_spec.rb[1:1:1:1:1:2]           | passed  | 1.41 seconds           |
+./embedded_player/aldi/genre/horizontal_spec.rb[1:1:1:1:1:3]           | passed  | 2.78 seconds           |
+./embedded_player/aldi/genre/horizontal_spec.rb[1:1:1:1:1:4]           | passed  | 11.91 seconds          |
+./embedded_player/aldi/genre/iab-rectangle_spec.rb[1:1:1:1:1:1]        | passed  | 8.96 seconds           |
+./embedded_player/aldi/genre/iab-rectangle_spec.rb[1:1:1:1:1:2]        | passed  | 1.25 seconds           |
+./embedded_player/aldi/genre/iab-rectangle_spec.rb[1:1:1:1:1:3]        | passed  | 2.72 seconds           |
+./embedded_player/aldi/genre/iab-rectangle_spec.rb[1:1:1:1:1:4]        | passed  | 11.52 seconds          |
+./embedded_player/aldi/genre/iab-skyscraper_spec.rb[1:1:1:1:1:1]       | passed  | 9.04 seconds           |
+./embedded_player/aldi/genre/iab-skyscraper_spec.rb[1:1:1:1:1:2]       | passed  | 1.17 seconds           |
+./embedded_player/aldi/genre/iab-skyscraper_spec.rb[1:1:1:1:1:3]       | passed  | 2.76 seconds           |
+./embedded_player/aldi/genre/iab-skyscraper_spec.rb[1:1:1:1:1:4]       | passed  | 13.2 seconds           |
+./embedded_player/aldi/genre/square_spec.rb[1:1:1:1:1:1]               | passed  | 11.36 seconds          |
+./embedded_player/aldi/genre/square_spec.rb[1:1:1:1:1:2]               | passed  | 1.12 seconds           |
+./embedded_player/aldi/genre/square_spec.rb[1:1:1:1:1:3]               | passed  | 2.96 seconds           |
+./embedded_player/aldi/genre/square_spec.rb[1:1:1:1:1:4]               | passed  | 13.59 seconds          |
+./embedded_player/aldi/genre/track_spec.rb[1:1:1:1:1:1]                | passed  | 12.06 seconds          |
+./embedded_player/aldi/genre/track_spec.rb[1:1:1:1:1:2]                | passed  | 1.37 seconds           |
+./embedded_player/aldi/genre/track_spec.rb[1:1:1:1:1:3]                | passed  | 2.81 seconds           |
+./embedded_player/aldi/genre/track_spec.rb[1:1:1:1:1:4]                | passed  | 14.15 seconds          |
+./embedded_player/aldi/playlist/horizontal_spec.rb[1:1:1:1:1:1]        | passed  | 10.27 seconds          |
+./embedded_player/aldi/playlist/horizontal_spec.rb[1:1:1:1:1:2]        | passed  | 1.46 seconds           |
+./embedded_player/aldi/playlist/horizontal_spec.rb[1:1:1:1:1:3]        | passed  | 2.79 seconds           |
+./embedded_player/aldi/playlist/horizontal_spec.rb[1:1:1:1:1:4]        | passed  | 12.7 seconds           |
+./embedded_player/aldi/playlist/iab-rectangle_spec.rb[1:1:1:1:1:1]     | passed  | 10.24 seconds          |
+./embedded_player/aldi/playlist/iab-rectangle_spec.rb[1:1:1:1:1:2]     | passed  | 1.2 seconds            |
+./embedded_player/aldi/playlist/iab-rectangle_spec.rb[1:1:1:1:1:3]     | passed  | 2.8 seconds            |
+./embedded_player/aldi/playlist/iab-rectangle_spec.rb[1:1:1:1:1:4]     | passed  | 16.78 seconds          |
+./embedded_player/aldi/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:1]    | passed  | 11.88 seconds          |
+./embedded_player/aldi/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:2]    | passed  | 1.7 seconds            |
+./embedded_player/aldi/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:3]    | passed  | 3.06 seconds           |
+./embedded_player/aldi/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:4]    | passed  | 14.11 seconds          |
+./embedded_player/aldi/playlist/square_spec.rb[1:1:1:1:1:1]            | passed  | 11.29 seconds          |
+./embedded_player/aldi/playlist/square_spec.rb[1:1:1:1:1:2]            | passed  | 1.18 seconds           |
+./embedded_player/aldi/playlist/square_spec.rb[1:1:1:1:1:3]            | passed  | 2.87 seconds           |
+./embedded_player/aldi/playlist/square_spec.rb[1:1:1:1:1:4]            | passed  | 15.67 seconds          |
+./embedded_player/aldi/playlist/track_spec.rb[1:1:1:1:1:1]             | passed  | 11.02 seconds          |
+./embedded_player/aldi/playlist/track_spec.rb[1:1:1:1:1:2]             | passed  | 1.51 seconds           |
+./embedded_player/aldi/playlist/track_spec.rb[1:1:1:1:1:3]             | passed  | 2.86 seconds           |
+./embedded_player/aldi/playlist/track_spec.rb[1:1:1:1:1:4]             | passed  | 12.72 seconds          |
+./embedded_player/aldi/track/horizontal_spec.rb[1:1:1:1:1:1]           | passed  | 9.25 seconds           |
+./embedded_player/aldi/track/horizontal_spec.rb[1:1:1:1:1:2]           | passed  | 1.68 seconds           |
+./embedded_player/aldi/track/horizontal_spec.rb[1:1:1:1:1:3]           | passed  | 3.3 seconds            |
+./embedded_player/aldi/track/horizontal_spec.rb[1:1:1:1:1:4]           | passed  | 11.71 seconds          |
+./embedded_player/aldi/track/iab-rectangle_spec.rb[1:1:1:1:1:1]        | passed  | 11.77 seconds          |
+./embedded_player/aldi/track/iab-rectangle_spec.rb[1:1:1:1:1:2]        | passed  | 1.18 seconds           |
+./embedded_player/aldi/track/iab-rectangle_spec.rb[1:1:1:1:1:3]        | passed  | 2.79 seconds           |
+./embedded_player/aldi/track/iab-rectangle_spec.rb[1:1:1:1:1:4]        | passed  | 11.86 seconds          |
+./embedded_player/aldi/track/iab-skyscraper_spec.rb[1:1:1:1:1:1]       | passed  | 9.53 seconds           |
+./embedded_player/aldi/track/iab-skyscraper_spec.rb[1:1:1:1:1:2]       | passed  | 1.11 seconds           |
+./embedded_player/aldi/track/iab-skyscraper_spec.rb[1:1:1:1:1:3]       | passed  | 2.72 seconds           |
+./embedded_player/aldi/track/iab-skyscraper_spec.rb[1:1:1:1:1:4]       | passed  | 12.76 seconds          |
+./embedded_player/aldi/track/square_spec.rb[1:1:1:1:1:1]               | passed  | 9.23 seconds           |
+./embedded_player/aldi/track/square_spec.rb[1:1:1:1:1:2]               | passed  | 1.17 seconds           |
+./embedded_player/aldi/track/square_spec.rb[1:1:1:1:1:3]               | passed  | 2.76 seconds           |
+./embedded_player/aldi/track/square_spec.rb[1:1:1:1:1:4]               | passed  | 11.69 seconds          |
+./embedded_player/aldi/track/track_spec.rb[1:1:1:1:1:1]                | passed  | 10 seconds             |
+./embedded_player/aldi/track/track_spec.rb[1:1:1:1:1:2]                | passed  | 1.46 seconds           |
+./embedded_player/aldi/track/track_spec.rb[1:1:1:1:1:3]                | passed  | 2.93 seconds           |
+./embedded_player/aldi/track/track_spec.rb[1:1:1:1:1:4]                | passed  | 13.47 seconds          |
+./embedded_player/ca/album/horizontal_spec.rb[1:1:1:1:1:1]             | passed  | 11.55 seconds          |
+./embedded_player/ca/album/horizontal_spec.rb[1:1:1:1:1:2]             | passed  | 1.75 seconds           |
+./embedded_player/ca/album/horizontal_spec.rb[1:1:1:1:1:3]             | passed  | 3.03 seconds           |
+./embedded_player/ca/album/horizontal_spec.rb[1:1:1:1:1:4]             | passed  | 13.13 seconds          |
+./embedded_player/ca/album/iab-rectangle_spec.rb[1:1:1:1:1:1]          | passed  | 11.17 seconds          |
+./embedded_player/ca/album/iab-rectangle_spec.rb[1:1:1:1:1:2]          | passed  | 1.39 seconds           |
+./embedded_player/ca/album/iab-rectangle_spec.rb[1:1:1:1:1:3]          | passed  | 2.91 seconds           |
+./embedded_player/ca/album/iab-rectangle_spec.rb[1:1:1:1:1:4]          | passed  | 13.91 seconds          |
+./embedded_player/ca/album/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | passed  | 11.34 seconds          |
+./embedded_player/ca/album/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | passed  | 1.27 seconds           |
+./embedded_player/ca/album/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | passed  | 2.85 seconds           |
+./embedded_player/ca/album/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | passed  | 11.89 seconds          |
+./embedded_player/ca/album/square_spec.rb[1:1:1:1:1:1]                 | passed  | 10.73 seconds          |
+./embedded_player/ca/album/square_spec.rb[1:1:1:1:1:2]                 | passed  | 1.35 seconds           |
+./embedded_player/ca/album/square_spec.rb[1:1:1:1:1:3]                 | passed  | 2.86 seconds           |
+./embedded_player/ca/album/square_spec.rb[1:1:1:1:1:4]                 | passed  | 12.86 seconds          |
+./embedded_player/ca/album/track_spec.rb[1:1:1:1:1:1]                  | passed  | 20.49 seconds          |
+./embedded_player/ca/album/track_spec.rb[1:1:1:1:1:2]                  | passed  | 1.69 seconds           |
+./embedded_player/ca/album/track_spec.rb[1:1:1:1:1:3]                  | failed  | 2.29 seconds           |
+./embedded_player/ca/album/track_spec.rb[1:1:1:1:1:4]                  | passed  | 12.63 seconds          |
+./embedded_player/ca/artist/horizontal_spec.rb[1:1:1:1:1:1]            | passed  | 11.93 seconds          |
+./embedded_player/ca/artist/horizontal_spec.rb[1:1:1:1:1:2]            | passed  | 1.68 seconds           |
+./embedded_player/ca/artist/horizontal_spec.rb[1:1:1:1:1:3]            | passed  | 3.28 seconds           |
+./embedded_player/ca/artist/horizontal_spec.rb[1:1:1:1:1:4]            | passed  | 14.01 seconds          |
+./embedded_player/ca/artist/iab-rectangle_spec.rb[1:1:1:1:1:1]         | passed  | 12.06 seconds          |
+./embedded_player/ca/artist/iab-rectangle_spec.rb[1:1:1:1:1:2]         | passed  | 1.26 seconds           |
+./embedded_player/ca/artist/iab-rectangle_spec.rb[1:1:1:1:1:3]         | passed  | 2.89 seconds           |
+./embedded_player/ca/artist/iab-rectangle_spec.rb[1:1:1:1:1:4]         | passed  | 12.5 seconds           |
+./embedded_player/ca/artist/iab-skyscraper_spec.rb[1:1:1:1:1:1]        | passed  | 11.63 seconds          |
+./embedded_player/ca/artist/iab-skyscraper_spec.rb[1:1:1:1:1:2]        | passed  | 1.28 seconds           |
+./embedded_player/ca/artist/iab-skyscraper_spec.rb[1:1:1:1:1:3]        | passed  | 3.18 seconds           |
+./embedded_player/ca/artist/iab-skyscraper_spec.rb[1:1:1:1:1:4]        | passed  | 13.03 seconds          |
+./embedded_player/ca/artist/square_spec.rb[1:1:1:1:1:1]                | passed  | 11.33 seconds          |
+./embedded_player/ca/artist/square_spec.rb[1:1:1:1:1:2]                | passed  | 1.44 seconds           |
+./embedded_player/ca/artist/square_spec.rb[1:1:1:1:1:3]                | passed  | 2.99 seconds           |
+./embedded_player/ca/artist/square_spec.rb[1:1:1:1:1:4]                | passed  | 13.28 seconds          |
+./embedded_player/ca/artist/track_spec.rb[1:1:1:1:1:1]                 | passed  | 12.78 seconds          |
+./embedded_player/ca/artist/track_spec.rb[1:1:1:1:1:2]                 | passed  | 1.6 seconds            |
+./embedded_player/ca/artist/track_spec.rb[1:1:1:1:1:3]                 | passed  | 2.84 seconds           |
+./embedded_player/ca/artist/track_spec.rb[1:1:1:1:1:4]                 | passed  | 13.47 seconds          |
+./embedded_player/ca/default/horizontal_spec.rb[1:1:1:1:1:1]           | passed  | 8.05 seconds           |
+./embedded_player/ca/default/horizontal_spec.rb[1:1:1:1:1:2]           | passed  | 1.85 seconds           |
+./embedded_player/ca/default/horizontal_spec.rb[1:1:1:1:1:3]           | passed  | 3.89 seconds           |
+./embedded_player/ca/default/horizontal_spec.rb[1:1:1:1:1:4]           | passed  | 9.45 seconds           |
+./embedded_player/ca/default/iab-rectangle_spec.rb[1:1:1:1:1:1]        | passed  | 8.92 seconds           |
+./embedded_player/ca/default/iab-rectangle_spec.rb[1:1:1:1:1:2]        | passed  | 1.47 seconds           |
+./embedded_player/ca/default/iab-rectangle_spec.rb[1:1:1:1:1:3]        | passed  | 2.84 seconds           |
+./embedded_player/ca/default/iab-rectangle_spec.rb[1:1:1:1:1:4]        | passed  | 9.37 seconds           |
+./embedded_player/ca/default/iab-skyscraper_spec.rb[1:1:1:1:1:1]       | passed  | 8.61 seconds           |
+./embedded_player/ca/default/iab-skyscraper_spec.rb[1:1:1:1:1:2]       | passed  | 1.64 seconds           |
+./embedded_player/ca/default/iab-skyscraper_spec.rb[1:1:1:1:1:3]       | passed  | 2.84 seconds           |
+./embedded_player/ca/default/iab-skyscraper_spec.rb[1:1:1:1:1:4]       | passed  | 9.44 seconds           |
+./embedded_player/ca/default/square_spec.rb[1:1:1:1:1:1]               | passed  | 8.56 seconds           |
+./embedded_player/ca/default/square_spec.rb[1:1:1:1:1:2]               | passed  | 1.52 seconds           |
+./embedded_player/ca/default/square_spec.rb[1:1:1:1:1:3]               | passed  | 2.85 seconds           |
+./embedded_player/ca/default/square_spec.rb[1:1:1:1:1:4]               | passed  | 10.51 seconds          |
+./embedded_player/ca/default/track_spec.rb[1:1:1:1:1:1]                | passed  | 7.74 seconds           |
+./embedded_player/ca/default/track_spec.rb[1:1:1:1:1:2]                | passed  | 1.91 seconds           |
+./embedded_player/ca/default/track_spec.rb[1:1:1:1:1:3]                | passed  | 2.84 seconds           |
+./embedded_player/ca/default/track_spec.rb[1:1:1:1:1:4]                | passed  | 9.08 seconds           |
+./embedded_player/ca/genre/horizontal_spec.rb[1:1:1:1:1:1]             | passed  | 11.08 seconds          |
+./embedded_player/ca/genre/horizontal_spec.rb[1:1:1:1:1:2]             | passed  | 1.58 seconds           |
+./embedded_player/ca/genre/horizontal_spec.rb[1:1:1:1:1:3]             | passed  | 2.88 seconds           |
+./embedded_player/ca/genre/horizontal_spec.rb[1:1:1:1:1:4]             | passed  | 13.06 seconds          |
+./embedded_player/ca/genre/iab-rectangle_spec.rb[1:1:1:1:1:1]          | passed  | 10.63 seconds          |
+./embedded_player/ca/genre/iab-rectangle_spec.rb[1:1:1:1:1:2]          | passed  | 1.23 seconds           |
+./embedded_player/ca/genre/iab-rectangle_spec.rb[1:1:1:1:1:3]          | passed  | 2.83 seconds           |
+./embedded_player/ca/genre/iab-rectangle_spec.rb[1:1:1:1:1:4]          | passed  | 11.67 seconds          |
+./embedded_player/ca/genre/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | passed  | 10.99 seconds          |
+./embedded_player/ca/genre/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | passed  | 1.29 seconds           |
+./embedded_player/ca/genre/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | passed  | 2.86 seconds           |
+./embedded_player/ca/genre/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | passed  | 12.32 seconds          |
+./embedded_player/ca/genre/square_spec.rb[1:1:1:1:1:1]                 | passed  | 12.39 seconds          |
+./embedded_player/ca/genre/square_spec.rb[1:1:1:1:1:2]                 | passed  | 1.59 seconds           |
+./embedded_player/ca/genre/square_spec.rb[1:1:1:1:1:3]                 | passed  | 3.16 seconds           |
+./embedded_player/ca/genre/square_spec.rb[1:1:1:1:1:4]                 | passed  | 13.82 seconds          |
+./embedded_player/ca/genre/track_spec.rb[1:1:1:1:1:1]                  | passed  | 11.61 seconds          |
+./embedded_player/ca/genre/track_spec.rb[1:1:1:1:1:2]                  | passed  | 1.63 seconds           |
+./embedded_player/ca/genre/track_spec.rb[1:1:1:1:1:3]                  | passed  | 3.11 seconds           |
+./embedded_player/ca/genre/track_spec.rb[1:1:1:1:1:4]                  | passed  | 12.85 seconds          |
+./embedded_player/ca/playlist/horizontal_spec.rb[1:1:1:1:1:1]          | passed  | 12.37 seconds          |
+./embedded_player/ca/playlist/horizontal_spec.rb[1:1:1:1:1:2]          | passed  | 1.59 seconds           |
+./embedded_player/ca/playlist/horizontal_spec.rb[1:1:1:1:1:3]          | passed  | 4.23 seconds           |
+./embedded_player/ca/playlist/horizontal_spec.rb[1:1:1:1:1:4]          | passed  | 15.24 seconds          |
+./embedded_player/ca/playlist/iab-rectangle_spec.rb[1:1:1:1:1:1]       | passed  | 11.52 seconds          |
+./embedded_player/ca/playlist/iab-rectangle_spec.rb[1:1:1:1:1:2]       | passed  | 1.27 seconds           |
+./embedded_player/ca/playlist/iab-rectangle_spec.rb[1:1:1:1:1:3]       | passed  | 2.88 seconds           |
+./embedded_player/ca/playlist/iab-rectangle_spec.rb[1:1:1:1:1:4]       | passed  | 13.52 seconds          |
+./embedded_player/ca/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:1]      | passed  | 11.84 seconds          |
+./embedded_player/ca/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:2]      | passed  | 1.27 seconds           |
+./embedded_player/ca/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:3]      | passed  | 3.19 seconds           |
+./embedded_player/ca/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:4]      | passed  | 16.38 seconds          |
+./embedded_player/ca/playlist/square_spec.rb[1:1:1:1:1:1]              | passed  | 12.08 seconds          |
+./embedded_player/ca/playlist/square_spec.rb[1:1:1:1:1:2]              | passed  | 1.44 seconds           |
+./embedded_player/ca/playlist/square_spec.rb[1:1:1:1:1:3]              | passed  | 3.07 seconds           |
+./embedded_player/ca/playlist/square_spec.rb[1:1:1:1:1:4]              | passed  | 14.07 seconds          |
+./embedded_player/ca/playlist/track_spec.rb[1:1:1:1:1:1]               | passed  | 11.48 seconds          |
+./embedded_player/ca/playlist/track_spec.rb[1:1:1:1:1:2]               | passed  | 1.87 seconds           |
+./embedded_player/ca/playlist/track_spec.rb[1:1:1:1:1:3]               | passed  | 3.51 seconds           |
+./embedded_player/ca/playlist/track_spec.rb[1:1:1:1:1:4]               | passed  | 14.84 seconds          |
+./embedded_player/ca/track/horizontal_spec.rb[1:1:1:1:1:1]             | passed  | 10.76 seconds          |
+./embedded_player/ca/track/horizontal_spec.rb[1:1:1:1:1:2]             | passed  | 1.58 seconds           |
+./embedded_player/ca/track/horizontal_spec.rb[1:1:1:1:1:3]             | passed  | 3.89 seconds           |
+./embedded_player/ca/track/horizontal_spec.rb[1:1:1:1:1:4]             | passed  | 12.42 seconds          |
+./embedded_player/ca/track/iab-rectangle_spec.rb[1:1:1:1:1:1]          | passed  | 18.44 seconds          |
+./embedded_player/ca/track/iab-rectangle_spec.rb[1:1:1:1:1:2]          | passed  | 1.71 seconds           |
+./embedded_player/ca/track/iab-rectangle_spec.rb[1:1:1:1:1:3]          | passed  | 3.79 seconds           |
+./embedded_player/ca/track/iab-rectangle_spec.rb[1:1:1:1:1:4]          | passed  | 11.85 seconds          |
+./embedded_player/ca/track/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | passed  | 11.61 seconds          |
+./embedded_player/ca/track/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | passed  | 1.31 seconds           |
+./embedded_player/ca/track/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | passed  | 3 seconds              |
+./embedded_player/ca/track/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | passed  | 12.06 seconds          |
+./embedded_player/ca/track/square_spec.rb[1:1:1:1:1:1]                 | passed  | 14.6 seconds           |
+./embedded_player/ca/track/square_spec.rb[1:1:1:1:1:2]                 | passed  | 1.57 seconds           |
+./embedded_player/ca/track/square_spec.rb[1:1:1:1:1:3]                 | passed  | 2.83 seconds           |
+./embedded_player/ca/track/square_spec.rb[1:1:1:1:1:4]                 | passed  | 16.93 seconds          |
+./embedded_player/ca/track/track_spec.rb[1:1:1:1:1:1]                  | passed  | 11.8 seconds           |
+./embedded_player/ca/track/track_spec.rb[1:1:1:1:1:2]                  | passed  | 1.54 seconds           |
+./embedded_player/ca/track/track_spec.rb[1:1:1:1:1:3]                  | passed  | 2.96 seconds           |
+./embedded_player/ca/track/track_spec.rb[1:1:1:1:1:4]                  | passed  | 13.78 seconds          |
+./embedded_player/de/album/horizontal_spec.rb[1:1:1:1:1:1]             | unknown |                        |
+./embedded_player/de/album/horizontal_spec.rb[1:1:1:1:1:2]             | unknown |                        |
+./embedded_player/de/album/horizontal_spec.rb[1:1:1:1:1:3]             | unknown |                        |
+./embedded_player/de/album/horizontal_spec.rb[1:1:1:1:1:4]             | unknown |                        |
+./embedded_player/de/album/iab-rectangle_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/de/album/iab-rectangle_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/de/album/iab-rectangle_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/de/album/iab-rectangle_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/de/album/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | unknown |                        |
+./embedded_player/de/album/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | unknown |                        |
+./embedded_player/de/album/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | unknown |                        |
+./embedded_player/de/album/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | unknown |                        |
+./embedded_player/de/album/square_spec.rb[1:1:1:1:1:1]                 | unknown |                        |
+./embedded_player/de/album/square_spec.rb[1:1:1:1:1:2]                 | unknown |                        |
+./embedded_player/de/album/square_spec.rb[1:1:1:1:1:3]                 | unknown |                        |
+./embedded_player/de/album/square_spec.rb[1:1:1:1:1:4]                 | unknown |                        |
+./embedded_player/de/album/track_spec.rb[1:1:1:1:1:1]                  | unknown |                        |
+./embedded_player/de/album/track_spec.rb[1:1:1:1:1:2]                  | unknown |                        |
+./embedded_player/de/album/track_spec.rb[1:1:1:1:1:3]                  | unknown |                        |
+./embedded_player/de/album/track_spec.rb[1:1:1:1:1:4]                  | unknown |                        |
+./embedded_player/de/artist/horizontal_spec.rb[1:1:1:1:1:1]            | unknown |                        |
+./embedded_player/de/artist/horizontal_spec.rb[1:1:1:1:1:2]            | unknown |                        |
+./embedded_player/de/artist/horizontal_spec.rb[1:1:1:1:1:3]            | unknown |                        |
+./embedded_player/de/artist/horizontal_spec.rb[1:1:1:1:1:4]            | unknown |                        |
+./embedded_player/de/artist/iab-rectangle_spec.rb[1:1:1:1:1:1]         | unknown |                        |
+./embedded_player/de/artist/iab-rectangle_spec.rb[1:1:1:1:1:2]         | unknown |                        |
+./embedded_player/de/artist/iab-rectangle_spec.rb[1:1:1:1:1:3]         | unknown |                        |
+./embedded_player/de/artist/iab-rectangle_spec.rb[1:1:1:1:1:4]         | unknown |                        |
+./embedded_player/de/artist/iab-skyscraper_spec.rb[1:1:1:1:1:1]        | unknown |                        |
+./embedded_player/de/artist/iab-skyscraper_spec.rb[1:1:1:1:1:2]        | unknown |                        |
+./embedded_player/de/artist/iab-skyscraper_spec.rb[1:1:1:1:1:3]        | unknown |                        |
+./embedded_player/de/artist/iab-skyscraper_spec.rb[1:1:1:1:1:4]        | unknown |                        |
+./embedded_player/de/artist/square_spec.rb[1:1:1:1:1:1]                | unknown |                        |
+./embedded_player/de/artist/square_spec.rb[1:1:1:1:1:2]                | unknown |                        |
+./embedded_player/de/artist/square_spec.rb[1:1:1:1:1:3]                | unknown |                        |
+./embedded_player/de/artist/square_spec.rb[1:1:1:1:1:4]                | unknown |                        |
+./embedded_player/de/artist/track_spec.rb[1:1:1:1:1:1]                 | unknown |                        |
+./embedded_player/de/artist/track_spec.rb[1:1:1:1:1:2]                 | unknown |                        |
+./embedded_player/de/artist/track_spec.rb[1:1:1:1:1:3]                 | unknown |                        |
+./embedded_player/de/artist/track_spec.rb[1:1:1:1:1:4]                 | unknown |                        |
+./embedded_player/de/default/horizontal_spec.rb[1:1:1:1:1:1]           | unknown |                        |
+./embedded_player/de/default/horizontal_spec.rb[1:1:1:1:1:2]           | unknown |                        |
+./embedded_player/de/default/horizontal_spec.rb[1:1:1:1:1:3]           | unknown |                        |
+./embedded_player/de/default/horizontal_spec.rb[1:1:1:1:1:4]           | unknown |                        |
+./embedded_player/de/default/iab-rectangle_spec.rb[1:1:1:1:1:1]        | unknown |                        |
+./embedded_player/de/default/iab-rectangle_spec.rb[1:1:1:1:1:2]        | unknown |                        |
+./embedded_player/de/default/iab-rectangle_spec.rb[1:1:1:1:1:3]        | unknown |                        |
+./embedded_player/de/default/iab-rectangle_spec.rb[1:1:1:1:1:4]        | unknown |                        |
+./embedded_player/de/default/iab-skyscraper_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/de/default/iab-skyscraper_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/de/default/iab-skyscraper_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/de/default/iab-skyscraper_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/de/default/square_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/de/default/square_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/de/default/square_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/de/default/square_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/de/default/track_spec.rb[1:1:1:1:1:1]                | unknown |                        |
+./embedded_player/de/default/track_spec.rb[1:1:1:1:1:2]                | unknown |                        |
+./embedded_player/de/default/track_spec.rb[1:1:1:1:1:3]                | unknown |                        |
+./embedded_player/de/default/track_spec.rb[1:1:1:1:1:4]                | unknown |                        |
+./embedded_player/de/genre/horizontal_spec.rb[1:1:1:1:1:1]             | unknown |                        |
+./embedded_player/de/genre/horizontal_spec.rb[1:1:1:1:1:2]             | unknown |                        |
+./embedded_player/de/genre/horizontal_spec.rb[1:1:1:1:1:3]             | unknown |                        |
+./embedded_player/de/genre/horizontal_spec.rb[1:1:1:1:1:4]             | unknown |                        |
+./embedded_player/de/genre/iab-rectangle_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/de/genre/iab-rectangle_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/de/genre/iab-rectangle_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/de/genre/iab-rectangle_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/de/genre/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | unknown |                        |
+./embedded_player/de/genre/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | unknown |                        |
+./embedded_player/de/genre/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | unknown |                        |
+./embedded_player/de/genre/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | unknown |                        |
+./embedded_player/de/genre/square_spec.rb[1:1:1:1:1:1]                 | unknown |                        |
+./embedded_player/de/genre/square_spec.rb[1:1:1:1:1:2]                 | unknown |                        |
+./embedded_player/de/genre/square_spec.rb[1:1:1:1:1:3]                 | unknown |                        |
+./embedded_player/de/genre/square_spec.rb[1:1:1:1:1:4]                 | unknown |                        |
+./embedded_player/de/genre/track_spec.rb[1:1:1:1:1:1]                  | unknown |                        |
+./embedded_player/de/genre/track_spec.rb[1:1:1:1:1:2]                  | unknown |                        |
+./embedded_player/de/genre/track_spec.rb[1:1:1:1:1:3]                  | unknown |                        |
+./embedded_player/de/genre/track_spec.rb[1:1:1:1:1:4]                  | unknown |                        |
+./embedded_player/de/playlist/horizontal_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/de/playlist/horizontal_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/de/playlist/horizontal_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/de/playlist/horizontal_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/de/playlist/iab-rectangle_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/de/playlist/iab-rectangle_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/de/playlist/iab-rectangle_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/de/playlist/iab-rectangle_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/de/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:1]      | unknown |                        |
+./embedded_player/de/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:2]      | unknown |                        |
+./embedded_player/de/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:3]      | unknown |                        |
+./embedded_player/de/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:4]      | unknown |                        |
+./embedded_player/de/playlist/square_spec.rb[1:1:1:1:1:1]              | unknown |                        |
+./embedded_player/de/playlist/square_spec.rb[1:1:1:1:1:2]              | unknown |                        |
+./embedded_player/de/playlist/square_spec.rb[1:1:1:1:1:3]              | unknown |                        |
+./embedded_player/de/playlist/square_spec.rb[1:1:1:1:1:4]              | unknown |                        |
+./embedded_player/de/playlist/track_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/de/playlist/track_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/de/playlist/track_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/de/playlist/track_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/de/track/horizontal_spec.rb[1:1:1:1:1:1]             | unknown |                        |
+./embedded_player/de/track/horizontal_spec.rb[1:1:1:1:1:2]             | unknown |                        |
+./embedded_player/de/track/horizontal_spec.rb[1:1:1:1:1:3]             | unknown |                        |
+./embedded_player/de/track/horizontal_spec.rb[1:1:1:1:1:4]             | unknown |                        |
+./embedded_player/de/track/iab-rectangle_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/de/track/iab-rectangle_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/de/track/iab-rectangle_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/de/track/iab-rectangle_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/de/track/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | unknown |                        |
+./embedded_player/de/track/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | unknown |                        |
+./embedded_player/de/track/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | unknown |                        |
+./embedded_player/de/track/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | unknown |                        |
+./embedded_player/de/track/square_spec.rb[1:1:1:1:1:1]                 | unknown |                        |
+./embedded_player/de/track/square_spec.rb[1:1:1:1:1:2]                 | unknown |                        |
+./embedded_player/de/track/square_spec.rb[1:1:1:1:1:3]                 | unknown |                        |
+./embedded_player/de/track/square_spec.rb[1:1:1:1:1:4]                 | unknown |                        |
+./embedded_player/de/track/track_spec.rb[1:1:1:1:1:1]                  | unknown |                        |
+./embedded_player/de/track/track_spec.rb[1:1:1:1:1:2]                  | unknown |                        |
+./embedded_player/de/track/track_spec.rb[1:1:1:1:1:3]                  | unknown |                        |
+./embedded_player/de/track/track_spec.rb[1:1:1:1:1:4]                  | unknown |                        |
+./embedded_player/eu/album/horizontal_spec.rb[1:1:1:1:1:1]             | unknown |                        |
+./embedded_player/eu/album/horizontal_spec.rb[1:1:1:1:1:2]             | unknown |                        |
+./embedded_player/eu/album/horizontal_spec.rb[1:1:1:1:1:3]             | unknown |                        |
+./embedded_player/eu/album/horizontal_spec.rb[1:1:1:1:1:4]             | unknown |                        |
+./embedded_player/eu/album/iab-rectangle_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/eu/album/iab-rectangle_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/eu/album/iab-rectangle_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/eu/album/iab-rectangle_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/eu/album/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | unknown |                        |
+./embedded_player/eu/album/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | unknown |                        |
+./embedded_player/eu/album/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | unknown |                        |
+./embedded_player/eu/album/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | unknown |                        |
+./embedded_player/eu/album/square_spec.rb[1:1:1:1:1:1]                 | unknown |                        |
+./embedded_player/eu/album/square_spec.rb[1:1:1:1:1:2]                 | unknown |                        |
+./embedded_player/eu/album/square_spec.rb[1:1:1:1:1:3]                 | unknown |                        |
+./embedded_player/eu/album/square_spec.rb[1:1:1:1:1:4]                 | unknown |                        |
+./embedded_player/eu/album/track_spec.rb[1:1:1:1:1:1]                  | unknown |                        |
+./embedded_player/eu/album/track_spec.rb[1:1:1:1:1:2]                  | unknown |                        |
+./embedded_player/eu/album/track_spec.rb[1:1:1:1:1:3]                  | unknown |                        |
+./embedded_player/eu/album/track_spec.rb[1:1:1:1:1:4]                  | unknown |                        |
+./embedded_player/eu/artist/horizontal_spec.rb[1:1:1:1:1:1]            | unknown |                        |
+./embedded_player/eu/artist/horizontal_spec.rb[1:1:1:1:1:2]            | unknown |                        |
+./embedded_player/eu/artist/horizontal_spec.rb[1:1:1:1:1:3]            | unknown |                        |
+./embedded_player/eu/artist/horizontal_spec.rb[1:1:1:1:1:4]            | unknown |                        |
+./embedded_player/eu/artist/iab-rectangle_spec.rb[1:1:1:1:1:1]         | unknown |                        |
+./embedded_player/eu/artist/iab-rectangle_spec.rb[1:1:1:1:1:2]         | unknown |                        |
+./embedded_player/eu/artist/iab-rectangle_spec.rb[1:1:1:1:1:3]         | unknown |                        |
+./embedded_player/eu/artist/iab-rectangle_spec.rb[1:1:1:1:1:4]         | unknown |                        |
+./embedded_player/eu/artist/iab-skyscraper_spec.rb[1:1:1:1:1:1]        | unknown |                        |
+./embedded_player/eu/artist/iab-skyscraper_spec.rb[1:1:1:1:1:2]        | unknown |                        |
+./embedded_player/eu/artist/iab-skyscraper_spec.rb[1:1:1:1:1:3]        | unknown |                        |
+./embedded_player/eu/artist/iab-skyscraper_spec.rb[1:1:1:1:1:4]        | unknown |                        |
+./embedded_player/eu/artist/square_spec.rb[1:1:1:1:1:1]                | unknown |                        |
+./embedded_player/eu/artist/square_spec.rb[1:1:1:1:1:2]                | unknown |                        |
+./embedded_player/eu/artist/square_spec.rb[1:1:1:1:1:3]                | unknown |                        |
+./embedded_player/eu/artist/square_spec.rb[1:1:1:1:1:4]                | unknown |                        |
+./embedded_player/eu/artist/track_spec.rb[1:1:1:1:1:1]                 | unknown |                        |
+./embedded_player/eu/artist/track_spec.rb[1:1:1:1:1:2]                 | unknown |                        |
+./embedded_player/eu/artist/track_spec.rb[1:1:1:1:1:3]                 | unknown |                        |
+./embedded_player/eu/artist/track_spec.rb[1:1:1:1:1:4]                 | unknown |                        |
+./embedded_player/eu/default/horizontal_spec.rb[1:1:1:1:1:1]           | unknown |                        |
+./embedded_player/eu/default/horizontal_spec.rb[1:1:1:1:1:2]           | unknown |                        |
+./embedded_player/eu/default/horizontal_spec.rb[1:1:1:1:1:3]           | unknown |                        |
+./embedded_player/eu/default/horizontal_spec.rb[1:1:1:1:1:4]           | unknown |                        |
+./embedded_player/eu/default/iab-rectangle_spec.rb[1:1:1:1:1:1]        | unknown |                        |
+./embedded_player/eu/default/iab-rectangle_spec.rb[1:1:1:1:1:2]        | unknown |                        |
+./embedded_player/eu/default/iab-rectangle_spec.rb[1:1:1:1:1:3]        | unknown |                        |
+./embedded_player/eu/default/iab-rectangle_spec.rb[1:1:1:1:1:4]        | unknown |                        |
+./embedded_player/eu/default/iab-skyscraper_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/eu/default/iab-skyscraper_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/eu/default/iab-skyscraper_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/eu/default/iab-skyscraper_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/eu/default/square_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/eu/default/square_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/eu/default/square_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/eu/default/square_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/eu/default/track_spec.rb[1:1:1:1:1:1]                | unknown |                        |
+./embedded_player/eu/default/track_spec.rb[1:1:1:1:1:2]                | unknown |                        |
+./embedded_player/eu/default/track_spec.rb[1:1:1:1:1:3]                | unknown |                        |
+./embedded_player/eu/default/track_spec.rb[1:1:1:1:1:4]                | unknown |                        |
+./embedded_player/eu/genre/horizontal_spec.rb[1:1:1:1:1:1]             | unknown |                        |
+./embedded_player/eu/genre/horizontal_spec.rb[1:1:1:1:1:2]             | unknown |                        |
+./embedded_player/eu/genre/horizontal_spec.rb[1:1:1:1:1:3]             | unknown |                        |
+./embedded_player/eu/genre/horizontal_spec.rb[1:1:1:1:1:4]             | unknown |                        |
+./embedded_player/eu/genre/iab-rectangle_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/eu/genre/iab-rectangle_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/eu/genre/iab-rectangle_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/eu/genre/iab-rectangle_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/eu/genre/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | unknown |                        |
+./embedded_player/eu/genre/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | unknown |                        |
+./embedded_player/eu/genre/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | unknown |                        |
+./embedded_player/eu/genre/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | unknown |                        |
+./embedded_player/eu/genre/square_spec.rb[1:1:1:1:1:1]                 | unknown |                        |
+./embedded_player/eu/genre/square_spec.rb[1:1:1:1:1:2]                 | unknown |                        |
+./embedded_player/eu/genre/square_spec.rb[1:1:1:1:1:3]                 | unknown |                        |
+./embedded_player/eu/genre/square_spec.rb[1:1:1:1:1:4]                 | unknown |                        |
+./embedded_player/eu/genre/track_spec.rb[1:1:1:1:1:1]                  | unknown |                        |
+./embedded_player/eu/genre/track_spec.rb[1:1:1:1:1:2]                  | unknown |                        |
+./embedded_player/eu/genre/track_spec.rb[1:1:1:1:1:3]                  | unknown |                        |
+./embedded_player/eu/genre/track_spec.rb[1:1:1:1:1:4]                  | unknown |                        |
+./embedded_player/eu/playlist/horizontal_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/eu/playlist/horizontal_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/eu/playlist/horizontal_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/eu/playlist/horizontal_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/eu/playlist/iab-rectangle_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/eu/playlist/iab-rectangle_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/eu/playlist/iab-rectangle_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/eu/playlist/iab-rectangle_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/eu/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:1]      | unknown |                        |
+./embedded_player/eu/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:2]      | unknown |                        |
+./embedded_player/eu/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:3]      | unknown |                        |
+./embedded_player/eu/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:4]      | unknown |                        |
+./embedded_player/eu/playlist/square_spec.rb[1:1:1:1:1:1]              | unknown |                        |
+./embedded_player/eu/playlist/square_spec.rb[1:1:1:1:1:2]              | unknown |                        |
+./embedded_player/eu/playlist/square_spec.rb[1:1:1:1:1:3]              | unknown |                        |
+./embedded_player/eu/playlist/square_spec.rb[1:1:1:1:1:4]              | unknown |                        |
+./embedded_player/eu/playlist/track_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/eu/playlist/track_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/eu/playlist/track_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/eu/playlist/track_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/eu/track/horizontal_spec.rb[1:1:1:1:1:1]             | unknown |                        |
+./embedded_player/eu/track/horizontal_spec.rb[1:1:1:1:1:2]             | unknown |                        |
+./embedded_player/eu/track/horizontal_spec.rb[1:1:1:1:1:3]             | unknown |                        |
+./embedded_player/eu/track/horizontal_spec.rb[1:1:1:1:1:4]             | unknown |                        |
+./embedded_player/eu/track/iab-rectangle_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/eu/track/iab-rectangle_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/eu/track/iab-rectangle_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/eu/track/iab-rectangle_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/eu/track/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | unknown |                        |
+./embedded_player/eu/track/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | unknown |                        |
+./embedded_player/eu/track/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | unknown |                        |
+./embedded_player/eu/track/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | unknown |                        |
+./embedded_player/eu/track/square_spec.rb[1:1:1:1:1:1]                 | unknown |                        |
+./embedded_player/eu/track/square_spec.rb[1:1:1:1:1:2]                 | unknown |                        |
+./embedded_player/eu/track/square_spec.rb[1:1:1:1:1:3]                 | unknown |                        |
+./embedded_player/eu/track/square_spec.rb[1:1:1:1:1:4]                 | unknown |                        |
+./embedded_player/eu/track/track_spec.rb[1:1:1:1:1:1]                  | unknown |                        |
+./embedded_player/eu/track/track_spec.rb[1:1:1:1:1:2]                  | unknown |                        |
+./embedded_player/eu/track/track_spec.rb[1:1:1:1:1:3]                  | unknown |                        |
+./embedded_player/eu/track/track_spec.rb[1:1:1:1:1:4]                  | unknown |                        |
+./embedded_player/hofer/album/horizontal_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/hofer/album/horizontal_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/hofer/album/horizontal_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/hofer/album/horizontal_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/hofer/album/iab-rectangle_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/hofer/album/iab-rectangle_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/hofer/album/iab-rectangle_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/hofer/album/iab-rectangle_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/hofer/album/iab-skyscraper_spec.rb[1:1:1:1:1:1]      | unknown |                        |
+./embedded_player/hofer/album/iab-skyscraper_spec.rb[1:1:1:1:1:2]      | unknown |                        |
+./embedded_player/hofer/album/iab-skyscraper_spec.rb[1:1:1:1:1:3]      | unknown |                        |
+./embedded_player/hofer/album/iab-skyscraper_spec.rb[1:1:1:1:1:4]      | unknown |                        |
+./embedded_player/hofer/album/square_spec.rb[1:1:1:1:1:1]              | unknown |                        |
+./embedded_player/hofer/album/square_spec.rb[1:1:1:1:1:2]              | unknown |                        |
+./embedded_player/hofer/album/square_spec.rb[1:1:1:1:1:3]              | unknown |                        |
+./embedded_player/hofer/album/square_spec.rb[1:1:1:1:1:4]              | unknown |                        |
+./embedded_player/hofer/album/track_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/hofer/album/track_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/hofer/album/track_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/hofer/album/track_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/hofer/artist/horizontal_spec.rb[1:1:1:1:1:1]         | unknown |                        |
+./embedded_player/hofer/artist/horizontal_spec.rb[1:1:1:1:1:2]         | unknown |                        |
+./embedded_player/hofer/artist/horizontal_spec.rb[1:1:1:1:1:3]         | unknown |                        |
+./embedded_player/hofer/artist/horizontal_spec.rb[1:1:1:1:1:4]         | unknown |                        |
+./embedded_player/hofer/artist/iab-rectangle_spec.rb[1:1:1:1:1:1]      | unknown |                        |
+./embedded_player/hofer/artist/iab-rectangle_spec.rb[1:1:1:1:1:2]      | unknown |                        |
+./embedded_player/hofer/artist/iab-rectangle_spec.rb[1:1:1:1:1:3]      | unknown |                        |
+./embedded_player/hofer/artist/iab-rectangle_spec.rb[1:1:1:1:1:4]      | unknown |                        |
+./embedded_player/hofer/artist/iab-skyscraper_spec.rb[1:1:1:1:1:1]     | unknown |                        |
+./embedded_player/hofer/artist/iab-skyscraper_spec.rb[1:1:1:1:1:2]     | unknown |                        |
+./embedded_player/hofer/artist/iab-skyscraper_spec.rb[1:1:1:1:1:3]     | unknown |                        |
+./embedded_player/hofer/artist/iab-skyscraper_spec.rb[1:1:1:1:1:4]     | unknown |                        |
+./embedded_player/hofer/artist/square_spec.rb[1:1:1:1:1:1]             | unknown |                        |
+./embedded_player/hofer/artist/square_spec.rb[1:1:1:1:1:2]             | unknown |                        |
+./embedded_player/hofer/artist/square_spec.rb[1:1:1:1:1:3]             | unknown |                        |
+./embedded_player/hofer/artist/square_spec.rb[1:1:1:1:1:4]             | unknown |                        |
+./embedded_player/hofer/artist/track_spec.rb[1:1:1:1:1:1]              | unknown |                        |
+./embedded_player/hofer/artist/track_spec.rb[1:1:1:1:1:2]              | unknown |                        |
+./embedded_player/hofer/artist/track_spec.rb[1:1:1:1:1:3]              | unknown |                        |
+./embedded_player/hofer/artist/track_spec.rb[1:1:1:1:1:4]              | unknown |                        |
+./embedded_player/hofer/default/horizontal_spec.rb[1:1:1:1:1:1]        | unknown |                        |
+./embedded_player/hofer/default/horizontal_spec.rb[1:1:1:1:1:2]        | unknown |                        |
+./embedded_player/hofer/default/horizontal_spec.rb[1:1:1:1:1:3]        | unknown |                        |
+./embedded_player/hofer/default/horizontal_spec.rb[1:1:1:1:1:4]        | unknown |                        |
+./embedded_player/hofer/default/iab-rectangle_spec.rb[1:1:1:1:1:1]     | unknown |                        |
+./embedded_player/hofer/default/iab-rectangle_spec.rb[1:1:1:1:1:2]     | unknown |                        |
+./embedded_player/hofer/default/iab-rectangle_spec.rb[1:1:1:1:1:3]     | unknown |                        |
+./embedded_player/hofer/default/iab-rectangle_spec.rb[1:1:1:1:1:4]     | unknown |                        |
+./embedded_player/hofer/default/iab-skyscraper_spec.rb[1:1:1:1:1:1]    | unknown |                        |
+./embedded_player/hofer/default/iab-skyscraper_spec.rb[1:1:1:1:1:2]    | unknown |                        |
+./embedded_player/hofer/default/iab-skyscraper_spec.rb[1:1:1:1:1:3]    | unknown |                        |
+./embedded_player/hofer/default/iab-skyscraper_spec.rb[1:1:1:1:1:4]    | unknown |                        |
+./embedded_player/hofer/default/square_spec.rb[1:1:1:1:1:1]            | unknown |                        |
+./embedded_player/hofer/default/square_spec.rb[1:1:1:1:1:2]            | unknown |                        |
+./embedded_player/hofer/default/square_spec.rb[1:1:1:1:1:3]            | unknown |                        |
+./embedded_player/hofer/default/square_spec.rb[1:1:1:1:1:4]            | unknown |                        |
+./embedded_player/hofer/default/track_spec.rb[1:1:1:1:1:1]             | unknown |                        |
+./embedded_player/hofer/default/track_spec.rb[1:1:1:1:1:2]             | unknown |                        |
+./embedded_player/hofer/default/track_spec.rb[1:1:1:1:1:3]             | unknown |                        |
+./embedded_player/hofer/default/track_spec.rb[1:1:1:1:1:4]             | unknown |                        |
+./embedded_player/hofer/genre/horizontal_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/hofer/genre/horizontal_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/hofer/genre/horizontal_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/hofer/genre/horizontal_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/hofer/genre/iab-rectangle_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/hofer/genre/iab-rectangle_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/hofer/genre/iab-rectangle_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/hofer/genre/iab-rectangle_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/hofer/genre/iab-skyscraper_spec.rb[1:1:1:1:1:1]      | unknown |                        |
+./embedded_player/hofer/genre/iab-skyscraper_spec.rb[1:1:1:1:1:2]      | unknown |                        |
+./embedded_player/hofer/genre/iab-skyscraper_spec.rb[1:1:1:1:1:3]      | unknown |                        |
+./embedded_player/hofer/genre/iab-skyscraper_spec.rb[1:1:1:1:1:4]      | unknown |                        |
+./embedded_player/hofer/genre/square_spec.rb[1:1:1:1:1:1]              | unknown |                        |
+./embedded_player/hofer/genre/square_spec.rb[1:1:1:1:1:2]              | unknown |                        |
+./embedded_player/hofer/genre/square_spec.rb[1:1:1:1:1:3]              | unknown |                        |
+./embedded_player/hofer/genre/square_spec.rb[1:1:1:1:1:4]              | unknown |                        |
+./embedded_player/hofer/genre/track_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/hofer/genre/track_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/hofer/genre/track_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/hofer/genre/track_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/hofer/playlist/horizontal_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/hofer/playlist/horizontal_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/hofer/playlist/horizontal_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/hofer/playlist/horizontal_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/hofer/playlist/iab-rectangle_spec.rb[1:1:1:1:1:1]    | unknown |                        |
+./embedded_player/hofer/playlist/iab-rectangle_spec.rb[1:1:1:1:1:2]    | unknown |                        |
+./embedded_player/hofer/playlist/iab-rectangle_spec.rb[1:1:1:1:1:3]    | unknown |                        |
+./embedded_player/hofer/playlist/iab-rectangle_spec.rb[1:1:1:1:1:4]    | unknown |                        |
+./embedded_player/hofer/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:1]   | unknown |                        |
+./embedded_player/hofer/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:2]   | unknown |                        |
+./embedded_player/hofer/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:3]   | unknown |                        |
+./embedded_player/hofer/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:4]   | unknown |                        |
+./embedded_player/hofer/playlist/square_spec.rb[1:1:1:1:1:1]           | unknown |                        |
+./embedded_player/hofer/playlist/square_spec.rb[1:1:1:1:1:2]           | unknown |                        |
+./embedded_player/hofer/playlist/square_spec.rb[1:1:1:1:1:3]           | unknown |                        |
+./embedded_player/hofer/playlist/square_spec.rb[1:1:1:1:1:4]           | unknown |                        |
+./embedded_player/hofer/playlist/track_spec.rb[1:1:1:1:1:1]            | unknown |                        |
+./embedded_player/hofer/playlist/track_spec.rb[1:1:1:1:1:2]            | unknown |                        |
+./embedded_player/hofer/playlist/track_spec.rb[1:1:1:1:1:3]            | unknown |                        |
+./embedded_player/hofer/playlist/track_spec.rb[1:1:1:1:1:4]            | unknown |                        |
+./embedded_player/hofer/track/horizontal_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/hofer/track/horizontal_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/hofer/track/horizontal_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/hofer/track/horizontal_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/hofer/track/iab-rectangle_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/hofer/track/iab-rectangle_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/hofer/track/iab-rectangle_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/hofer/track/iab-rectangle_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/hofer/track/iab-skyscraper_spec.rb[1:1:1:1:1:1]      | unknown |                        |
+./embedded_player/hofer/track/iab-skyscraper_spec.rb[1:1:1:1:1:2]      | unknown |                        |
+./embedded_player/hofer/track/iab-skyscraper_spec.rb[1:1:1:1:1:3]      | unknown |                        |
+./embedded_player/hofer/track/iab-skyscraper_spec.rb[1:1:1:1:1:4]      | unknown |                        |
+./embedded_player/hofer/track/square_spec.rb[1:1:1:1:1:1]              | unknown |                        |
+./embedded_player/hofer/track/square_spec.rb[1:1:1:1:1:2]              | unknown |                        |
+./embedded_player/hofer/track/square_spec.rb[1:1:1:1:1:3]              | unknown |                        |
+./embedded_player/hofer/track/square_spec.rb[1:1:1:1:1:4]              | unknown |                        |
+./embedded_player/hofer/track/track_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/hofer/track/track_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/hofer/track/track_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/hofer/track/track_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/latam/album/horizontal_spec.rb[1:1:1:1:1:1]          | passed  | 12.05 seconds          |
+./embedded_player/latam/album/horizontal_spec.rb[1:1:1:1:1:2]          | passed  | 1.88 seconds           |
+./embedded_player/latam/album/horizontal_spec.rb[1:1:1:1:1:3]          | passed  | 3.04 seconds           |
+./embedded_player/latam/album/horizontal_spec.rb[1:1:1:1:1:4]          | passed  | 13.11 seconds          |
+./embedded_player/latam/album/iab-rectangle_spec.rb[1:1:1:1:1:1]       | passed  | 10.77 seconds          |
+./embedded_player/latam/album/iab-rectangle_spec.rb[1:1:1:1:1:2]       | passed  | 1.47 seconds           |
+./embedded_player/latam/album/iab-rectangle_spec.rb[1:1:1:1:1:3]       | passed  | 2.97 seconds           |
+./embedded_player/latam/album/iab-rectangle_spec.rb[1:1:1:1:1:4]       | passed  | 12.36 seconds          |
+./embedded_player/latam/album/iab-skyscraper_spec.rb[1:1:1:1:1:1]      | passed  | 11.07 seconds          |
+./embedded_player/latam/album/iab-skyscraper_spec.rb[1:1:1:1:1:2]      | passed  | 1.57 seconds           |
+./embedded_player/latam/album/iab-skyscraper_spec.rb[1:1:1:1:1:3]      | passed  | 3.11 seconds           |
+./embedded_player/latam/album/iab-skyscraper_spec.rb[1:1:1:1:1:4]      | passed  | 13.82 seconds          |
+./embedded_player/latam/album/square_spec.rb[1:1:1:1:1:1]              | passed  | 12.79 seconds          |
+./embedded_player/latam/album/square_spec.rb[1:1:1:1:1:2]              | passed  | 1.53 seconds           |
+./embedded_player/latam/album/square_spec.rb[1:1:1:1:1:3]              | passed  | 3 seconds              |
+./embedded_player/latam/album/square_spec.rb[1:1:1:1:1:4]              | passed  | 13.38 seconds          |
+./embedded_player/latam/album/track_spec.rb[1:1:1:1:1:1]               | passed  | 10.37 seconds          |
+./embedded_player/latam/album/track_spec.rb[1:1:1:1:1:2]               | passed  | 1.83 seconds           |
+./embedded_player/latam/album/track_spec.rb[1:1:1:1:1:3]               | passed  | 3.1 seconds            |
+./embedded_player/latam/album/track_spec.rb[1:1:1:1:1:4]               | passed  | 11.8 seconds           |
+./embedded_player/latam/artist/horizontal_spec.rb[1:1:1:1:1:1]         | passed  | 11.6 seconds           |
+./embedded_player/latam/artist/horizontal_spec.rb[1:1:1:1:1:2]         | passed  | 1.92 seconds           |
+./embedded_player/latam/artist/horizontal_spec.rb[1:1:1:1:1:3]         | passed  | 3.27 seconds           |
+./embedded_player/latam/artist/horizontal_spec.rb[1:1:1:1:1:4]         | failed  | 8.6 seconds            |
+./embedded_player/latam/artist/iab-rectangle_spec.rb[1:1:1:1:1:1]      | unknown |                        |
+./embedded_player/latam/artist/iab-rectangle_spec.rb[1:1:1:1:1:2]      | unknown |                        |
+./embedded_player/latam/artist/iab-rectangle_spec.rb[1:1:1:1:1:3]      | unknown |                        |
+./embedded_player/latam/artist/iab-rectangle_spec.rb[1:1:1:1:1:4]      | unknown |                        |
+./embedded_player/latam/artist/iab-skyscraper_spec.rb[1:1:1:1:1:1]     | unknown |                        |
+./embedded_player/latam/artist/iab-skyscraper_spec.rb[1:1:1:1:1:2]     | unknown |                        |
+./embedded_player/latam/artist/iab-skyscraper_spec.rb[1:1:1:1:1:3]     | unknown |                        |
+./embedded_player/latam/artist/iab-skyscraper_spec.rb[1:1:1:1:1:4]     | unknown |                        |
+./embedded_player/latam/artist/square_spec.rb[1:1:1:1:1:1]             | unknown |                        |
+./embedded_player/latam/artist/square_spec.rb[1:1:1:1:1:2]             | unknown |                        |
+./embedded_player/latam/artist/square_spec.rb[1:1:1:1:1:3]             | unknown |                        |
+./embedded_player/latam/artist/square_spec.rb[1:1:1:1:1:4]             | unknown |                        |
+./embedded_player/latam/artist/track_spec.rb[1:1:1:1:1:1]              | unknown |                        |
+./embedded_player/latam/artist/track_spec.rb[1:1:1:1:1:2]              | unknown |                        |
+./embedded_player/latam/artist/track_spec.rb[1:1:1:1:1:3]              | unknown |                        |
+./embedded_player/latam/artist/track_spec.rb[1:1:1:1:1:4]              | unknown |                        |
+./embedded_player/latam/default/horizontal_spec.rb[1:1:1:1:1:1]        | unknown |                        |
+./embedded_player/latam/default/horizontal_spec.rb[1:1:1:1:1:2]        | unknown |                        |
+./embedded_player/latam/default/horizontal_spec.rb[1:1:1:1:1:3]        | unknown |                        |
+./embedded_player/latam/default/horizontal_spec.rb[1:1:1:1:1:4]        | unknown |                        |
+./embedded_player/latam/default/iab-rectangle_spec.rb[1:1:1:1:1:1]     | unknown |                        |
+./embedded_player/latam/default/iab-rectangle_spec.rb[1:1:1:1:1:2]     | unknown |                        |
+./embedded_player/latam/default/iab-rectangle_spec.rb[1:1:1:1:1:3]     | unknown |                        |
+./embedded_player/latam/default/iab-rectangle_spec.rb[1:1:1:1:1:4]     | unknown |                        |
+./embedded_player/latam/default/iab-skyscraper_spec.rb[1:1:1:1:1:1]    | unknown |                        |
+./embedded_player/latam/default/iab-skyscraper_spec.rb[1:1:1:1:1:2]    | unknown |                        |
+./embedded_player/latam/default/iab-skyscraper_spec.rb[1:1:1:1:1:3]    | unknown |                        |
+./embedded_player/latam/default/iab-skyscraper_spec.rb[1:1:1:1:1:4]    | unknown |                        |
+./embedded_player/latam/default/square_spec.rb[1:1:1:1:1:1]            | unknown |                        |
+./embedded_player/latam/default/square_spec.rb[1:1:1:1:1:2]            | unknown |                        |
+./embedded_player/latam/default/square_spec.rb[1:1:1:1:1:3]            | unknown |                        |
+./embedded_player/latam/default/square_spec.rb[1:1:1:1:1:4]            | unknown |                        |
+./embedded_player/latam/default/track_spec.rb[1:1:1:1:1:1]             | unknown |                        |
+./embedded_player/latam/default/track_spec.rb[1:1:1:1:1:2]             | unknown |                        |
+./embedded_player/latam/default/track_spec.rb[1:1:1:1:1:3]             | unknown |                        |
+./embedded_player/latam/default/track_spec.rb[1:1:1:1:1:4]             | unknown |                        |
+./embedded_player/latam/genre/horizontal_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/latam/genre/horizontal_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/latam/genre/horizontal_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/latam/genre/horizontal_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/latam/genre/iab-rectangle_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/latam/genre/iab-rectangle_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/latam/genre/iab-rectangle_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/latam/genre/iab-rectangle_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/latam/genre/iab-skyscraper_spec.rb[1:1:1:1:1:1]      | unknown |                        |
+./embedded_player/latam/genre/iab-skyscraper_spec.rb[1:1:1:1:1:2]      | unknown |                        |
+./embedded_player/latam/genre/iab-skyscraper_spec.rb[1:1:1:1:1:3]      | unknown |                        |
+./embedded_player/latam/genre/iab-skyscraper_spec.rb[1:1:1:1:1:4]      | unknown |                        |
+./embedded_player/latam/genre/square_spec.rb[1:1:1:1:1:1]              | unknown |                        |
+./embedded_player/latam/genre/square_spec.rb[1:1:1:1:1:2]              | unknown |                        |
+./embedded_player/latam/genre/square_spec.rb[1:1:1:1:1:3]              | unknown |                        |
+./embedded_player/latam/genre/square_spec.rb[1:1:1:1:1:4]              | unknown |                        |
+./embedded_player/latam/genre/track_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/latam/genre/track_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/latam/genre/track_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/latam/genre/track_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/latam/playlist/horizontal_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/latam/playlist/horizontal_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/latam/playlist/horizontal_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/latam/playlist/horizontal_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/latam/playlist/iab-rectangle_spec.rb[1:1:1:1:1:1]    | unknown |                        |
+./embedded_player/latam/playlist/iab-rectangle_spec.rb[1:1:1:1:1:2]    | unknown |                        |
+./embedded_player/latam/playlist/iab-rectangle_spec.rb[1:1:1:1:1:3]    | unknown |                        |
+./embedded_player/latam/playlist/iab-rectangle_spec.rb[1:1:1:1:1:4]    | unknown |                        |
+./embedded_player/latam/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:1]   | unknown |                        |
+./embedded_player/latam/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:2]   | unknown |                        |
+./embedded_player/latam/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:3]   | unknown |                        |
+./embedded_player/latam/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:4]   | unknown |                        |
+./embedded_player/latam/playlist/square_spec.rb[1:1:1:1:1:1]           | unknown |                        |
+./embedded_player/latam/playlist/square_spec.rb[1:1:1:1:1:2]           | unknown |                        |
+./embedded_player/latam/playlist/square_spec.rb[1:1:1:1:1:3]           | unknown |                        |
+./embedded_player/latam/playlist/square_spec.rb[1:1:1:1:1:4]           | unknown |                        |
+./embedded_player/latam/playlist/track_spec.rb[1:1:1:1:1:1]            | unknown |                        |
+./embedded_player/latam/playlist/track_spec.rb[1:1:1:1:1:2]            | unknown |                        |
+./embedded_player/latam/playlist/track_spec.rb[1:1:1:1:1:3]            | unknown |                        |
+./embedded_player/latam/playlist/track_spec.rb[1:1:1:1:1:4]            | unknown |                        |
+./embedded_player/latam/track/horizontal_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/latam/track/horizontal_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/latam/track/horizontal_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/latam/track/horizontal_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/latam/track/iab-rectangle_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/latam/track/iab-rectangle_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/latam/track/iab-rectangle_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/latam/track/iab-rectangle_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/latam/track/iab-skyscraper_spec.rb[1:1:1:1:1:1]      | unknown |                        |
+./embedded_player/latam/track/iab-skyscraper_spec.rb[1:1:1:1:1:2]      | unknown |                        |
+./embedded_player/latam/track/iab-skyscraper_spec.rb[1:1:1:1:1:3]      | unknown |                        |
+./embedded_player/latam/track/iab-skyscraper_spec.rb[1:1:1:1:1:4]      | unknown |                        |
+./embedded_player/latam/track/square_spec.rb[1:1:1:1:1:1]              | unknown |                        |
+./embedded_player/latam/track/square_spec.rb[1:1:1:1:1:2]              | unknown |                        |
+./embedded_player/latam/track/square_spec.rb[1:1:1:1:1:3]              | unknown |                        |
+./embedded_player/latam/track/square_spec.rb[1:1:1:1:1:4]              | unknown |                        |
+./embedded_player/latam/track/track_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/latam/track/track_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/latam/track/track_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/latam/track/track_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/uk/album/horizontal_spec.rb[1:1:1:1:1:1]             | unknown |                        |
+./embedded_player/uk/album/horizontal_spec.rb[1:1:1:1:1:2]             | unknown |                        |
+./embedded_player/uk/album/horizontal_spec.rb[1:1:1:1:1:3]             | unknown |                        |
+./embedded_player/uk/album/horizontal_spec.rb[1:1:1:1:1:4]             | unknown |                        |
+./embedded_player/uk/album/iab-rectangle_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/uk/album/iab-rectangle_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/uk/album/iab-rectangle_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/uk/album/iab-rectangle_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/uk/album/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | unknown |                        |
+./embedded_player/uk/album/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | unknown |                        |
+./embedded_player/uk/album/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | unknown |                        |
+./embedded_player/uk/album/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | unknown |                        |
+./embedded_player/uk/album/square_spec.rb[1:1:1:1:1:1]                 | unknown |                        |
+./embedded_player/uk/album/square_spec.rb[1:1:1:1:1:2]                 | unknown |                        |
+./embedded_player/uk/album/square_spec.rb[1:1:1:1:1:3]                 | unknown |                        |
+./embedded_player/uk/album/square_spec.rb[1:1:1:1:1:4]                 | unknown |                        |
+./embedded_player/uk/album/track_spec.rb[1:1:1:1:1:1]                  | unknown |                        |
+./embedded_player/uk/album/track_spec.rb[1:1:1:1:1:2]                  | unknown |                        |
+./embedded_player/uk/album/track_spec.rb[1:1:1:1:1:3]                  | unknown |                        |
+./embedded_player/uk/album/track_spec.rb[1:1:1:1:1:4]                  | unknown |                        |
+./embedded_player/uk/artist/horizontal_spec.rb[1:1:1:1:1:1]            | unknown |                        |
+./embedded_player/uk/artist/horizontal_spec.rb[1:1:1:1:1:2]            | unknown |                        |
+./embedded_player/uk/artist/horizontal_spec.rb[1:1:1:1:1:3]            | unknown |                        |
+./embedded_player/uk/artist/horizontal_spec.rb[1:1:1:1:1:4]            | unknown |                        |
+./embedded_player/uk/artist/iab-rectangle_spec.rb[1:1:1:1:1:1]         | unknown |                        |
+./embedded_player/uk/artist/iab-rectangle_spec.rb[1:1:1:1:1:2]         | unknown |                        |
+./embedded_player/uk/artist/iab-rectangle_spec.rb[1:1:1:1:1:3]         | unknown |                        |
+./embedded_player/uk/artist/iab-rectangle_spec.rb[1:1:1:1:1:4]         | unknown |                        |
+./embedded_player/uk/artist/iab-skyscraper_spec.rb[1:1:1:1:1:1]        | unknown |                        |
+./embedded_player/uk/artist/iab-skyscraper_spec.rb[1:1:1:1:1:2]        | unknown |                        |
+./embedded_player/uk/artist/iab-skyscraper_spec.rb[1:1:1:1:1:3]        | unknown |                        |
+./embedded_player/uk/artist/iab-skyscraper_spec.rb[1:1:1:1:1:4]        | unknown |                        |
+./embedded_player/uk/artist/square_spec.rb[1:1:1:1:1:1]                | unknown |                        |
+./embedded_player/uk/artist/square_spec.rb[1:1:1:1:1:2]                | unknown |                        |
+./embedded_player/uk/artist/square_spec.rb[1:1:1:1:1:3]                | unknown |                        |
+./embedded_player/uk/artist/square_spec.rb[1:1:1:1:1:4]                | unknown |                        |
+./embedded_player/uk/artist/track_spec.rb[1:1:1:1:1:1]                 | unknown |                        |
+./embedded_player/uk/artist/track_spec.rb[1:1:1:1:1:2]                 | unknown |                        |
+./embedded_player/uk/artist/track_spec.rb[1:1:1:1:1:3]                 | unknown |                        |
+./embedded_player/uk/artist/track_spec.rb[1:1:1:1:1:4]                 | unknown |                        |
+./embedded_player/uk/default/horizontal_spec.rb[1:1:1:1:1:1]           | unknown |                        |
+./embedded_player/uk/default/horizontal_spec.rb[1:1:1:1:1:2]           | unknown |                        |
+./embedded_player/uk/default/horizontal_spec.rb[1:1:1:1:1:3]           | unknown |                        |
+./embedded_player/uk/default/horizontal_spec.rb[1:1:1:1:1:4]           | unknown |                        |
+./embedded_player/uk/default/iab-rectangle_spec.rb[1:1:1:1:1:1]        | unknown |                        |
+./embedded_player/uk/default/iab-rectangle_spec.rb[1:1:1:1:1:2]        | unknown |                        |
+./embedded_player/uk/default/iab-rectangle_spec.rb[1:1:1:1:1:3]        | unknown |                        |
+./embedded_player/uk/default/iab-rectangle_spec.rb[1:1:1:1:1:4]        | unknown |                        |
+./embedded_player/uk/default/iab-skyscraper_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/uk/default/iab-skyscraper_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/uk/default/iab-skyscraper_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/uk/default/iab-skyscraper_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/uk/default/square_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/uk/default/square_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/uk/default/square_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/uk/default/square_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/uk/default/track_spec.rb[1:1:1:1:1:1]                | unknown |                        |
+./embedded_player/uk/default/track_spec.rb[1:1:1:1:1:2]                | unknown |                        |
+./embedded_player/uk/default/track_spec.rb[1:1:1:1:1:3]                | unknown |                        |
+./embedded_player/uk/default/track_spec.rb[1:1:1:1:1:4]                | unknown |                        |
+./embedded_player/uk/genre/horizontal_spec.rb[1:1:1:1:1:1]             | passed  | 12.31 seconds          |
+./embedded_player/uk/genre/horizontal_spec.rb[1:1:1:1:1:2]             | passed  | 1.84 seconds           |
+./embedded_player/uk/genre/horizontal_spec.rb[1:1:1:1:1:3]             | passed  | 2.99 seconds           |
+./embedded_player/uk/genre/horizontal_spec.rb[1:1:1:1:1:4]             | passed  | 14.95 seconds          |
+./embedded_player/uk/genre/iab-rectangle_spec.rb[1:1:1:1:1:1]          | passed  | 11.4 seconds           |
+./embedded_player/uk/genre/iab-rectangle_spec.rb[1:1:1:1:1:2]          | passed  | 1.82 seconds           |
+./embedded_player/uk/genre/iab-rectangle_spec.rb[1:1:1:1:1:3]          | passed  | 3.07 seconds           |
+./embedded_player/uk/genre/iab-rectangle_spec.rb[1:1:1:1:1:4]          | passed  | 14.14 seconds          |
+./embedded_player/uk/genre/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | passed  | 10.48 seconds          |
+./embedded_player/uk/genre/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | passed  | 1.55 seconds           |
+./embedded_player/uk/genre/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | passed  | 2.96 seconds           |
+./embedded_player/uk/genre/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | passed  | 12.92 seconds          |
+./embedded_player/uk/genre/square_spec.rb[1:1:1:1:1:1]                 | passed  | 10.91 seconds          |
+./embedded_player/uk/genre/square_spec.rb[1:1:1:1:1:2]                 | passed  | 1.63 seconds           |
+./embedded_player/uk/genre/square_spec.rb[1:1:1:1:1:3]                 | passed  | 3.17 seconds           |
+./embedded_player/uk/genre/square_spec.rb[1:1:1:1:1:4]                 | passed  | 13.47 seconds          |
+./embedded_player/uk/genre/track_spec.rb[1:1:1:1:1:1]                  | passed  | 10.54 seconds          |
+./embedded_player/uk/genre/track_spec.rb[1:1:1:1:1:2]                  | passed  | 1.85 seconds           |
+./embedded_player/uk/genre/track_spec.rb[1:1:1:1:1:3]                  | passed  | 3.56 seconds           |
+./embedded_player/uk/genre/track_spec.rb[1:1:1:1:1:4]                  | passed  | 14.88 seconds          |
+./embedded_player/uk/playlist/horizontal_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/uk/playlist/horizontal_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/uk/playlist/horizontal_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/uk/playlist/horizontal_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/uk/playlist/iab-rectangle_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/uk/playlist/iab-rectangle_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/uk/playlist/iab-rectangle_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/uk/playlist/iab-rectangle_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/uk/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:1]      | unknown |                        |
+./embedded_player/uk/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:2]      | unknown |                        |
+./embedded_player/uk/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:3]      | unknown |                        |
+./embedded_player/uk/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:4]      | unknown |                        |
+./embedded_player/uk/playlist/square_spec.rb[1:1:1:1:1:1]              | unknown |                        |
+./embedded_player/uk/playlist/square_spec.rb[1:1:1:1:1:2]              | unknown |                        |
+./embedded_player/uk/playlist/square_spec.rb[1:1:1:1:1:3]              | unknown |                        |
+./embedded_player/uk/playlist/square_spec.rb[1:1:1:1:1:4]              | unknown |                        |
+./embedded_player/uk/playlist/track_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/uk/playlist/track_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/uk/playlist/track_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/uk/playlist/track_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/uk/track/horizontal_spec.rb[1:1:1:1:1:1]             | unknown |                        |
+./embedded_player/uk/track/horizontal_spec.rb[1:1:1:1:1:2]             | unknown |                        |
+./embedded_player/uk/track/horizontal_spec.rb[1:1:1:1:1:3]             | unknown |                        |
+./embedded_player/uk/track/horizontal_spec.rb[1:1:1:1:1:4]             | unknown |                        |
+./embedded_player/uk/track/iab-rectangle_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/uk/track/iab-rectangle_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/uk/track/iab-rectangle_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/uk/track/iab-rectangle_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/uk/track/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | unknown |                        |
+./embedded_player/uk/track/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | unknown |                        |
+./embedded_player/uk/track/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | unknown |                        |
+./embedded_player/uk/track/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | unknown |                        |
+./embedded_player/uk/track/square_spec.rb[1:1:1:1:1:1]                 | unknown |                        |
+./embedded_player/uk/track/square_spec.rb[1:1:1:1:1:2]                 | unknown |                        |
+./embedded_player/uk/track/square_spec.rb[1:1:1:1:1:3]                 | unknown |                        |
+./embedded_player/uk/track/square_spec.rb[1:1:1:1:1:4]                 | unknown |                        |
+./embedded_player/uk/track/track_spec.rb[1:1:1:1:1:1]                  | unknown |                        |
+./embedded_player/uk/track/track_spec.rb[1:1:1:1:1:2]                  | unknown |                        |
+./embedded_player/uk/track/track_spec.rb[1:1:1:1:1:3]                  | unknown |                        |
+./embedded_player/uk/track/track_spec.rb[1:1:1:1:1:4]                  | unknown |                        |
+./embedded_player/us/album/horizontal_spec.rb[1:1:1:1:1:1]             | passed  | 13.22 seconds          |
+./embedded_player/us/album/horizontal_spec.rb[1:1:1:1:1:2]             | passed  | 1.49 seconds           |
+./embedded_player/us/album/horizontal_spec.rb[1:1:1:1:1:3]             | passed  | 2.95 seconds           |
+./embedded_player/us/album/horizontal_spec.rb[1:1:1:1:1:4]             | passed  | 16.13 seconds          |
+./embedded_player/us/album/iab-rectangle_spec.rb[1:1:1:1:1:1]          | passed  | 16.69 seconds          |
+./embedded_player/us/album/iab-rectangle_spec.rb[1:1:1:1:1:2]          | passed  | 1.26 seconds           |
+./embedded_player/us/album/iab-rectangle_spec.rb[1:1:1:1:1:3]          | passed  | 2.79 seconds           |
+./embedded_player/us/album/iab-rectangle_spec.rb[1:1:1:1:1:4]          | passed  | 15.67 seconds          |
+./embedded_player/us/album/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | passed  | 11.33 seconds          |
+./embedded_player/us/album/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | passed  | 1.34 seconds           |
+./embedded_player/us/album/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | passed  | 3.42 seconds           |
+./embedded_player/us/album/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | passed  | 19.46 seconds          |
+./embedded_player/us/album/square_spec.rb[1:1:1:1:1:1]                 | passed  | 11.29 seconds          |
+./embedded_player/us/album/square_spec.rb[1:1:1:1:1:2]                 | passed  | 1.59 seconds           |
+./embedded_player/us/album/square_spec.rb[1:1:1:1:1:3]                 | passed  | 2.87 seconds           |
+./embedded_player/us/album/square_spec.rb[1:1:1:1:1:4]                 | passed  | 12.83 seconds          |
+./embedded_player/us/album/track_spec.rb[1:1:1:1:1:1]                  | passed  | 14.87 seconds          |
+./embedded_player/us/album/track_spec.rb[1:1:1:1:1:2]                  | passed  | 4.86 seconds           |
+./embedded_player/us/album/track_spec.rb[1:1:1:1:1:3]                  | passed  | 3.13 seconds           |
+./embedded_player/us/album/track_spec.rb[1:1:1:1:1:4]                  | passed  | 15.01 seconds          |
+./embedded_player/us/artist/horizontal_spec.rb[1:1:1:1:1:1]            | passed  | 11.17 seconds          |
+./embedded_player/us/artist/horizontal_spec.rb[1:1:1:1:1:2]            | passed  | 1.9 seconds            |
+./embedded_player/us/artist/horizontal_spec.rb[1:1:1:1:1:3]            | passed  | 2.87 seconds           |
+./embedded_player/us/artist/horizontal_spec.rb[1:1:1:1:1:4]            | passed  | 14.24 seconds          |
+./embedded_player/us/artist/iab-rectangle_spec.rb[1:1:1:1:1:1]         | passed  | 11.02 seconds          |
+./embedded_player/us/artist/iab-rectangle_spec.rb[1:1:1:1:1:2]         | passed  | 1.28 seconds           |
+./embedded_player/us/artist/iab-rectangle_spec.rb[1:1:1:1:1:3]         | passed  | 3.17 seconds           |
+./embedded_player/us/artist/iab-rectangle_spec.rb[1:1:1:1:1:4]         | passed  | 13.16 seconds          |
+./embedded_player/us/artist/iab-skyscraper_spec.rb[1:1:1:1:1:1]        | passed  | 12.4 seconds           |
+./embedded_player/us/artist/iab-skyscraper_spec.rb[1:1:1:1:1:2]        | passed  | 1.25 seconds           |
+./embedded_player/us/artist/iab-skyscraper_spec.rb[1:1:1:1:1:3]        | passed  | 3.95 seconds           |
+./embedded_player/us/artist/iab-skyscraper_spec.rb[1:1:1:1:1:4]        | passed  | 19.85 seconds          |
+./embedded_player/us/artist/square_spec.rb[1:1:1:1:1:1]                | passed  | 11.98 seconds          |
+./embedded_player/us/artist/square_spec.rb[1:1:1:1:1:2]                | passed  | 1.41 seconds           |
+./embedded_player/us/artist/square_spec.rb[1:1:1:1:1:3]                | passed  | 3.51 seconds           |
+./embedded_player/us/artist/square_spec.rb[1:1:1:1:1:4]                | passed  | 14.14 seconds          |
+./embedded_player/us/artist/track_spec.rb[1:1:1:1:1:1]                 | passed  | 12.42 seconds          |
+./embedded_player/us/artist/track_spec.rb[1:1:1:1:1:2]                 | passed  | 1.59 seconds           |
+./embedded_player/us/artist/track_spec.rb[1:1:1:1:1:3]                 | passed  | 3 seconds              |
+./embedded_player/us/artist/track_spec.rb[1:1:1:1:1:4]                 | passed  | 14.52 seconds          |
+./embedded_player/us/default/horizontal_spec.rb[1:1:1:1:1:1]           | passed  | 14.46 seconds          |
+./embedded_player/us/default/horizontal_spec.rb[1:1:1:1:1:2]           | passed  | 1.61 seconds           |
+./embedded_player/us/default/horizontal_spec.rb[1:1:1:1:1:3]           | passed  | 3.31 seconds           |
+./embedded_player/us/default/horizontal_spec.rb[1:1:1:1:1:4]           | passed  | 13.83 seconds          |
+./embedded_player/us/default/iab-rectangle_spec.rb[1:1:1:1:1:1]        | passed  | 10.52 seconds          |
+./embedded_player/us/default/iab-rectangle_spec.rb[1:1:1:1:1:2]        | passed  | 1.17 seconds           |
+./embedded_player/us/default/iab-rectangle_spec.rb[1:1:1:1:1:3]        | passed  | 2.81 seconds           |
+./embedded_player/us/default/iab-rectangle_spec.rb[1:1:1:1:1:4]        | passed  | 10.88 seconds          |
+./embedded_player/us/default/iab-skyscraper_spec.rb[1:1:1:1:1:1]       | passed  | 7.92 seconds           |
+./embedded_player/us/default/iab-skyscraper_spec.rb[1:1:1:1:1:2]       | passed  | 1.52 seconds           |
+./embedded_player/us/default/iab-skyscraper_spec.rb[1:1:1:1:1:3]       | passed  | 3.12 seconds           |
+./embedded_player/us/default/iab-skyscraper_spec.rb[1:1:1:1:1:4]       | passed  | 10.04 seconds          |
+./embedded_player/us/default/square_spec.rb[1:1:1:1:1:1]               | passed  | 8.05 seconds           |
+./embedded_player/us/default/square_spec.rb[1:1:1:1:1:2]               | passed  | 1.73 seconds           |
+./embedded_player/us/default/square_spec.rb[1:1:1:1:1:3]               | passed  | 3.16 seconds           |
+./embedded_player/us/default/square_spec.rb[1:1:1:1:1:4]               | passed  | 10.48 seconds          |
+./embedded_player/us/default/track_spec.rb[1:1:1:1:1:1]                | passed  | 8.65 seconds           |
+./embedded_player/us/default/track_spec.rb[1:1:1:1:1:2]                | passed  | 1.63 seconds           |
+./embedded_player/us/default/track_spec.rb[1:1:1:1:1:3]                | passed  | 2.82 seconds           |
+./embedded_player/us/default/track_spec.rb[1:1:1:1:1:4]                | passed  | 10.86 seconds          |
+./embedded_player/us/genre/horizontal_spec.rb[1:1:1:1:1:1]             | passed  | 13.09 seconds          |
+./embedded_player/us/genre/horizontal_spec.rb[1:1:1:1:1:2]             | passed  | 1.52 seconds           |
+./embedded_player/us/genre/horizontal_spec.rb[1:1:1:1:1:3]             | passed  | 3.14 seconds           |
+./embedded_player/us/genre/horizontal_spec.rb[1:1:1:1:1:4]             | passed  | 23.09 seconds          |
+./embedded_player/us/genre/iab-rectangle_spec.rb[1:1:1:1:1:1]          | passed  | 11.13 seconds          |
+./embedded_player/us/genre/iab-rectangle_spec.rb[1:1:1:1:1:2]          | passed  | 1.18 seconds           |
+./embedded_player/us/genre/iab-rectangle_spec.rb[1:1:1:1:1:3]          | passed  | 2.81 seconds           |
+./embedded_player/us/genre/iab-rectangle_spec.rb[1:1:1:1:1:4]          | passed  | 12.7 seconds           |
+./embedded_player/us/genre/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | passed  | 11.16 seconds          |
+./embedded_player/us/genre/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | passed  | 1.28 seconds           |
+./embedded_player/us/genre/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | passed  | 3.21 seconds           |
+./embedded_player/us/genre/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | passed  | 13.94 seconds          |
+./embedded_player/us/genre/square_spec.rb[1:1:1:1:1:1]                 | passed  | 11.75 seconds          |
+./embedded_player/us/genre/square_spec.rb[1:1:1:1:1:2]                 | passed  | 1.24 seconds           |
+./embedded_player/us/genre/square_spec.rb[1:1:1:1:1:3]                 | passed  | 2.91 seconds           |
+./embedded_player/us/genre/square_spec.rb[1:1:1:1:1:4]                 | passed  | 14.67 seconds          |
+./embedded_player/us/genre/track_spec.rb[1:1:1:1:1:1]                  | passed  | 12.55 seconds          |
+./embedded_player/us/genre/track_spec.rb[1:1:1:1:1:2]                  | passed  | 1.47 seconds           |
+./embedded_player/us/genre/track_spec.rb[1:1:1:1:1:3]                  | passed  | 3.55 seconds           |
+./embedded_player/us/genre/track_spec.rb[1:1:1:1:1:4]                  | passed  | 14.74 seconds          |
+./embedded_player/us/playlist/horizontal_spec.rb[1:1:1:1:1:1]          | passed  | 12.14 seconds          |
+./embedded_player/us/playlist/horizontal_spec.rb[1:1:1:1:1:2]          | passed  | 1.45 seconds           |
+./embedded_player/us/playlist/horizontal_spec.rb[1:1:1:1:1:3]          | passed  | 2.88 seconds           |
+./embedded_player/us/playlist/horizontal_spec.rb[1:1:1:1:1:4]          | passed  | 14.48 seconds          |
+./embedded_player/us/playlist/iab-rectangle_spec.rb[1:1:1:1:1:1]       | passed  | 16.39 seconds          |
+./embedded_player/us/playlist/iab-rectangle_spec.rb[1:1:1:1:1:2]       | passed  | 1.43 seconds           |
+./embedded_player/us/playlist/iab-rectangle_spec.rb[1:1:1:1:1:3]       | passed  | 3.25 seconds           |
+./embedded_player/us/playlist/iab-rectangle_spec.rb[1:1:1:1:1:4]       | passed  | 18.19 seconds          |
+./embedded_player/us/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:1]      | passed  | 15.97 seconds          |
+./embedded_player/us/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:2]      | passed  | 1.34 seconds           |
+./embedded_player/us/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:3]      | passed  | 3.95 seconds           |
+./embedded_player/us/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:4]      | passed  | 18.99 seconds          |
+./embedded_player/us/playlist/square_spec.rb[1:1:1:1:1:1]              | passed  | 14.58 seconds          |
+./embedded_player/us/playlist/square_spec.rb[1:1:1:1:1:2]              | passed  | 1.26 seconds           |
+./embedded_player/us/playlist/square_spec.rb[1:1:1:1:1:3]              | passed  | 3.36 seconds           |
+./embedded_player/us/playlist/square_spec.rb[1:1:1:1:1:4]              | passed  | 16.83 seconds          |
+./embedded_player/us/playlist/track_spec.rb[1:1:1:1:1:1]               | passed  | 11.57 seconds          |
+./embedded_player/us/playlist/track_spec.rb[1:1:1:1:1:2]               | passed  | 1.56 seconds           |
+./embedded_player/us/playlist/track_spec.rb[1:1:1:1:1:3]               | passed  | 2.86 seconds           |
+./embedded_player/us/playlist/track_spec.rb[1:1:1:1:1:4]               | passed  | 16.72 seconds          |
+./embedded_player/us/track/horizontal_spec.rb[1:1:1:1:1:1]             | passed  | 11.65 seconds          |
+./embedded_player/us/track/horizontal_spec.rb[1:1:1:1:1:2]             | passed  | 1.96 seconds           |
+./embedded_player/us/track/horizontal_spec.rb[1:1:1:1:1:3]             | passed  | 3.86 seconds           |
+./embedded_player/us/track/horizontal_spec.rb[1:1:1:1:1:4]             | passed  | 13.5 seconds           |
+./embedded_player/us/track/iab-rectangle_spec.rb[1:1:1:1:1:1]          | passed  | 11.51 seconds          |
+./embedded_player/us/track/iab-rectangle_spec.rb[1:1:1:1:1:2]          | passed  | 1.18 seconds           |
+./embedded_player/us/track/iab-rectangle_spec.rb[1:1:1:1:1:3]          | passed  | 2.74 seconds           |
+./embedded_player/us/track/iab-rectangle_spec.rb[1:1:1:1:1:4]          | passed  | 12.83 seconds          |
+./embedded_player/us/track/iab-skyscraper_spec.rb[1:1:1:1:1:1]         | passed  | 10.95 seconds          |
+./embedded_player/us/track/iab-skyscraper_spec.rb[1:1:1:1:1:2]         | passed  | 1.89 seconds           |
+./embedded_player/us/track/iab-skyscraper_spec.rb[1:1:1:1:1:3]         | passed  | 4.19 seconds           |
+./embedded_player/us/track/iab-skyscraper_spec.rb[1:1:1:1:1:4]         | passed  | 13.96 seconds          |
+./embedded_player/us/track/square_spec.rb[1:1:1:1:1:1]                 | passed  | 13.49 seconds          |
+./embedded_player/us/track/square_spec.rb[1:1:1:1:1:2]                 | passed  | 1.72 seconds           |
+./embedded_player/us/track/square_spec.rb[1:1:1:1:1:3]                 | passed  | 3.86 seconds           |
+./embedded_player/us/track/square_spec.rb[1:1:1:1:1:4]                 | passed  | 12.08 seconds          |
+./embedded_player/us/track/track_spec.rb[1:1:1:1:1:1]                  | passed  | 10.7 seconds           |
+./embedded_player/us/track/track_spec.rb[1:1:1:1:1:2]                  | passed  | 1.6 seconds            |
+./embedded_player/us/track/track_spec.rb[1:1:1:1:1:3]                  | passed  | 2.97 seconds           |
+./embedded_player/us/track/track_spec.rb[1:1:1:1:1:4]                  | passed  | 12.05 seconds          |
+./embedded_player/vivo/album/horizontal_spec.rb[1:1:1:1:1:1]           | unknown |                        |
+./embedded_player/vivo/album/horizontal_spec.rb[1:1:1:1:1:2]           | unknown |                        |
+./embedded_player/vivo/album/horizontal_spec.rb[1:1:1:1:1:3]           | unknown |                        |
+./embedded_player/vivo/album/horizontal_spec.rb[1:1:1:1:1:4]           | unknown |                        |
+./embedded_player/vivo/album/iab-rectangle_spec.rb[1:1:1:1:1:1]        | unknown |                        |
+./embedded_player/vivo/album/iab-rectangle_spec.rb[1:1:1:1:1:2]        | unknown |                        |
+./embedded_player/vivo/album/iab-rectangle_spec.rb[1:1:1:1:1:3]        | unknown |                        |
+./embedded_player/vivo/album/iab-rectangle_spec.rb[1:1:1:1:1:4]        | unknown |                        |
+./embedded_player/vivo/album/iab-skyscraper_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/vivo/album/iab-skyscraper_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/vivo/album/iab-skyscraper_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/vivo/album/iab-skyscraper_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/vivo/album/square_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/vivo/album/square_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/vivo/album/square_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/vivo/album/square_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/vivo/album/track_spec.rb[1:1:1:1:1:1]                | unknown |                        |
+./embedded_player/vivo/album/track_spec.rb[1:1:1:1:1:2]                | unknown |                        |
+./embedded_player/vivo/album/track_spec.rb[1:1:1:1:1:3]                | unknown |                        |
+./embedded_player/vivo/album/track_spec.rb[1:1:1:1:1:4]                | unknown |                        |
+./embedded_player/vivo/artist/horizontal_spec.rb[1:1:1:1:1:1]          | unknown |                        |
+./embedded_player/vivo/artist/horizontal_spec.rb[1:1:1:1:1:2]          | unknown |                        |
+./embedded_player/vivo/artist/horizontal_spec.rb[1:1:1:1:1:3]          | unknown |                        |
+./embedded_player/vivo/artist/horizontal_spec.rb[1:1:1:1:1:4]          | unknown |                        |
+./embedded_player/vivo/artist/iab-rectangle_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/vivo/artist/iab-rectangle_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/vivo/artist/iab-rectangle_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/vivo/artist/iab-rectangle_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/vivo/artist/iab-skyscraper_spec.rb[1:1:1:1:1:1]      | unknown |                        |
+./embedded_player/vivo/artist/iab-skyscraper_spec.rb[1:1:1:1:1:2]      | unknown |                        |
+./embedded_player/vivo/artist/iab-skyscraper_spec.rb[1:1:1:1:1:3]      | unknown |                        |
+./embedded_player/vivo/artist/iab-skyscraper_spec.rb[1:1:1:1:1:4]      | unknown |                        |
+./embedded_player/vivo/artist/square_spec.rb[1:1:1:1:1:1]              | unknown |                        |
+./embedded_player/vivo/artist/square_spec.rb[1:1:1:1:1:2]              | unknown |                        |
+./embedded_player/vivo/artist/square_spec.rb[1:1:1:1:1:3]              | unknown |                        |
+./embedded_player/vivo/artist/square_spec.rb[1:1:1:1:1:4]              | unknown |                        |
+./embedded_player/vivo/artist/track_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/vivo/artist/track_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/vivo/artist/track_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/vivo/artist/track_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/vivo/default/horizontal_spec.rb[1:1:1:1:1:1]         | unknown |                        |
+./embedded_player/vivo/default/horizontal_spec.rb[1:1:1:1:1:2]         | unknown |                        |
+./embedded_player/vivo/default/horizontal_spec.rb[1:1:1:1:1:3]         | unknown |                        |
+./embedded_player/vivo/default/horizontal_spec.rb[1:1:1:1:1:4]         | unknown |                        |
+./embedded_player/vivo/default/iab-rectangle_spec.rb[1:1:1:1:1:1]      | unknown |                        |
+./embedded_player/vivo/default/iab-rectangle_spec.rb[1:1:1:1:1:2]      | unknown |                        |
+./embedded_player/vivo/default/iab-rectangle_spec.rb[1:1:1:1:1:3]      | unknown |                        |
+./embedded_player/vivo/default/iab-rectangle_spec.rb[1:1:1:1:1:4]      | unknown |                        |
+./embedded_player/vivo/default/iab-skyscraper_spec.rb[1:1:1:1:1:1]     | unknown |                        |
+./embedded_player/vivo/default/iab-skyscraper_spec.rb[1:1:1:1:1:2]     | unknown |                        |
+./embedded_player/vivo/default/iab-skyscraper_spec.rb[1:1:1:1:1:3]     | unknown |                        |
+./embedded_player/vivo/default/iab-skyscraper_spec.rb[1:1:1:1:1:4]     | unknown |                        |
+./embedded_player/vivo/default/square_spec.rb[1:1:1:1:1:1]             | unknown |                        |
+./embedded_player/vivo/default/square_spec.rb[1:1:1:1:1:2]             | unknown |                        |
+./embedded_player/vivo/default/square_spec.rb[1:1:1:1:1:3]             | unknown |                        |
+./embedded_player/vivo/default/square_spec.rb[1:1:1:1:1:4]             | unknown |                        |
+./embedded_player/vivo/default/track_spec.rb[1:1:1:1:1:1]              | unknown |                        |
+./embedded_player/vivo/default/track_spec.rb[1:1:1:1:1:2]              | unknown |                        |
+./embedded_player/vivo/default/track_spec.rb[1:1:1:1:1:3]              | unknown |                        |
+./embedded_player/vivo/default/track_spec.rb[1:1:1:1:1:4]              | unknown |                        |
+./embedded_player/vivo/genre/horizontal_spec.rb[1:1:1:1:1:1]           | unknown |                        |
+./embedded_player/vivo/genre/horizontal_spec.rb[1:1:1:1:1:2]           | unknown |                        |
+./embedded_player/vivo/genre/horizontal_spec.rb[1:1:1:1:1:3]           | unknown |                        |
+./embedded_player/vivo/genre/horizontal_spec.rb[1:1:1:1:1:4]           | unknown |                        |
+./embedded_player/vivo/genre/iab-rectangle_spec.rb[1:1:1:1:1:1]        | unknown |                        |
+./embedded_player/vivo/genre/iab-rectangle_spec.rb[1:1:1:1:1:2]        | unknown |                        |
+./embedded_player/vivo/genre/iab-rectangle_spec.rb[1:1:1:1:1:3]        | unknown |                        |
+./embedded_player/vivo/genre/iab-rectangle_spec.rb[1:1:1:1:1:4]        | unknown |                        |
+./embedded_player/vivo/genre/iab-skyscraper_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/vivo/genre/iab-skyscraper_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/vivo/genre/iab-skyscraper_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/vivo/genre/iab-skyscraper_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/vivo/genre/square_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/vivo/genre/square_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/vivo/genre/square_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/vivo/genre/square_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/vivo/genre/track_spec.rb[1:1:1:1:1:1]                | unknown |                        |
+./embedded_player/vivo/genre/track_spec.rb[1:1:1:1:1:2]                | unknown |                        |
+./embedded_player/vivo/genre/track_spec.rb[1:1:1:1:1:3]                | unknown |                        |
+./embedded_player/vivo/genre/track_spec.rb[1:1:1:1:1:4]                | unknown |                        |
+./embedded_player/vivo/playlist/horizontal_spec.rb[1:1:1:1:1:1]        | unknown |                        |
+./embedded_player/vivo/playlist/horizontal_spec.rb[1:1:1:1:1:2]        | unknown |                        |
+./embedded_player/vivo/playlist/horizontal_spec.rb[1:1:1:1:1:3]        | unknown |                        |
+./embedded_player/vivo/playlist/horizontal_spec.rb[1:1:1:1:1:4]        | unknown |                        |
+./embedded_player/vivo/playlist/iab-rectangle_spec.rb[1:1:1:1:1:1]     | unknown |                        |
+./embedded_player/vivo/playlist/iab-rectangle_spec.rb[1:1:1:1:1:2]     | unknown |                        |
+./embedded_player/vivo/playlist/iab-rectangle_spec.rb[1:1:1:1:1:3]     | unknown |                        |
+./embedded_player/vivo/playlist/iab-rectangle_spec.rb[1:1:1:1:1:4]     | unknown |                        |
+./embedded_player/vivo/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:1]    | unknown |                        |
+./embedded_player/vivo/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:2]    | unknown |                        |
+./embedded_player/vivo/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:3]    | unknown |                        |
+./embedded_player/vivo/playlist/iab-skyscraper_spec.rb[1:1:1:1:1:4]    | unknown |                        |
+./embedded_player/vivo/playlist/square_spec.rb[1:1:1:1:1:1]            | unknown |                        |
+./embedded_player/vivo/playlist/square_spec.rb[1:1:1:1:1:2]            | unknown |                        |
+./embedded_player/vivo/playlist/square_spec.rb[1:1:1:1:1:3]            | unknown |                        |
+./embedded_player/vivo/playlist/square_spec.rb[1:1:1:1:1:4]            | unknown |                        |
+./embedded_player/vivo/playlist/track_spec.rb[1:1:1:1:1:1]             | unknown |                        |
+./embedded_player/vivo/playlist/track_spec.rb[1:1:1:1:1:2]             | unknown |                        |
+./embedded_player/vivo/playlist/track_spec.rb[1:1:1:1:1:3]             | unknown |                        |
+./embedded_player/vivo/playlist/track_spec.rb[1:1:1:1:1:4]             | unknown |                        |
+./embedded_player/vivo/track/horizontal_spec.rb[1:1:1:1:1:1]           | unknown |                        |
+./embedded_player/vivo/track/horizontal_spec.rb[1:1:1:1:1:2]           | unknown |                        |
+./embedded_player/vivo/track/horizontal_spec.rb[1:1:1:1:1:3]           | unknown |                        |
+./embedded_player/vivo/track/horizontal_spec.rb[1:1:1:1:1:4]           | unknown |                        |
+./embedded_player/vivo/track/iab-rectangle_spec.rb[1:1:1:1:1:1]        | unknown |                        |
+./embedded_player/vivo/track/iab-rectangle_spec.rb[1:1:1:1:1:2]        | unknown |                        |
+./embedded_player/vivo/track/iab-rectangle_spec.rb[1:1:1:1:1:3]        | unknown |                        |
+./embedded_player/vivo/track/iab-rectangle_spec.rb[1:1:1:1:1:4]        | unknown |                        |
+./embedded_player/vivo/track/iab-skyscraper_spec.rb[1:1:1:1:1:1]       | unknown |                        |
+./embedded_player/vivo/track/iab-skyscraper_spec.rb[1:1:1:1:1:2]       | unknown |                        |
+./embedded_player/vivo/track/iab-skyscraper_spec.rb[1:1:1:1:1:3]       | unknown |                        |
+./embedded_player/vivo/track/iab-skyscraper_spec.rb[1:1:1:1:1:4]       | unknown |                        |
+./embedded_player/vivo/track/square_spec.rb[1:1:1:1:1:1]               | unknown |                        |
+./embedded_player/vivo/track/square_spec.rb[1:1:1:1:1:2]               | unknown |                        |
+./embedded_player/vivo/track/square_spec.rb[1:1:1:1:1:3]               | unknown |                        |
+./embedded_player/vivo/track/square_spec.rb[1:1:1:1:1:4]               | unknown |                        |
+./embedded_player/vivo/track/track_spec.rb[1:1:1:1:1:1]                | unknown |                        |
+./embedded_player/vivo/track/track_spec.rb[1:1:1:1:1:2]                | unknown |                        |
+./embedded_player/vivo/track/track_spec.rb[1:1:1:1:1:3]                | unknown |                        |
+./embedded_player/vivo/track/track_spec.rb[1:1:1:1:1:4]                | unknown |                        |
+./spec/aldi/favorite_spec.rb[1:1:1:1:1]                                | failed  | 30.76 seconds          |
+./spec/aldi/favorite_spec.rb[1:1:1:1:2]                                | failed  | 10.71 seconds          |
+./spec/aldi/general_spec.rb[1:1:1:1]                                   | passed  | 28.21 seconds          |
+./spec/aldi/general_spec.rb[1:1:1:2]                                   | passed  | 5.88 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:3]                                   | passed  | 1.38 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:4]                                   | passed  | 5.31 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:5]                                   | passed  | 1.26 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:6]                                   | passed  | 1.18 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:7:1]                                 | passed  | 2.85 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:7:2]                                 | passed  | 0.18202 seconds        |
+./spec/aldi/general_spec.rb[1:1:1:7:3]                                 | passed  | 0.16898 seconds        |
+./spec/aldi/general_spec.rb[1:1:1:7:4]                                 | passed  | 0.2772 seconds         |
+./spec/aldi/general_spec.rb[1:1:1:7:5]                                 | passed  | 6.09 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:8]                                   | passed  | 6.49 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:9]                                   | passed  | 2.67 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:10]                                  | passed  | 3.46 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:11]                                  | passed  | 3.41 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:12]                                  | passed  | 2.29 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:13]                                  | passed  | 15.06 seconds          |
+./spec/aldi/general_spec.rb[1:1:1:14]                                  | passed  | 14.95 seconds          |
+./spec/aldi/general_spec.rb[1:1:1:15]                                  | passed  | 8.37 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:16]                                  | passed  | 14.83 seconds          |
+./spec/aldi/general_spec.rb[1:1:1:17:1]                                | passed  | 3.43 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:17:2]                                | passed  | 3.68 seconds           |
+./spec/aldi/general_spec.rb[1:1:1:17:3]                                | passed  | 1.25 seconds           |
+./spec/aldi/mixer_spec.rb[1:1:1:1:1]                                   | failed  | 1 minute 16.42 seconds |
+./spec/aldi/mixer_spec.rb[1:1:1:1:2]                                   | failed  | 1.1 seconds            |
+./spec/aldi/mixer_spec.rb[1:1:1:1:3]                                   | failed  | 33.13 seconds          |
+./spec/aldi/mixer_spec.rb[1:1:1:2:1]                                   | passed  | 38.44 seconds          |
+./spec/aldi/mixer_spec.rb[1:1:1:2:2]                                   | passed  | 3.06 seconds           |
+./spec/aldi/mixer_spec.rb[1:1:1:2:3]                                   | passed  | 3.31 seconds           |
+./spec/aldi/mixer_spec.rb[1:1:1:3:1]                                   | passed  | 17.01 seconds          |
+./spec/aldi/mixer_spec.rb[1:1:1:3:2]                                   | passed  | 3.07 seconds           |
+./spec/aldi/mixer_spec.rb[1:1:1:3:3]                                   | passed  | 3.3 seconds            |
+./spec/aldi/playlist_spec.rb[1:1:1]                                    | passed  | 2 minutes 46.5 seconds |
+./spec/aldi/profile_spec.rb[1:1:1]                                     | failed  | 25.66 seconds          |
+./spec/aldi/search_spec.rb[1:1:1:1]                                    | failed  | 0.00001 seconds        |
+./spec/aldi/search_spec.rb[1:1:1:2]                                    | failed  | 0 seconds              |
+./spec/aldi/search_spec.rb[1:1:1:3]                                    | failed  | 0 seconds              |
+./spec/aldi/search_spec.rb[1:1:1:4]                                    | failed  | 0 seconds              |
+./spec/aldi/search_spec.rb[1:1:1:5]                                    | failed  | 0 seconds              |
+./spec/aldi/share_spec.rb[1:1:1:1]                                     | failed  | 0 seconds              |
+./spec/aldi/share_spec.rb[1:1:1:2]                                     | failed  | 0 seconds              |
+./spec/aldi/share_spec.rb[1:1:1:3]                                     | failed  | 0 seconds              |
+./spec/aldi/test.rb[1:1:1:1:1]                                         | passed  | 29.03 seconds          |
+./spec/ca/favorite_spec.rb[1:1:1:1:1]                                  | failed  | 0 seconds              |
+./spec/ca/favorite_spec.rb[1:1:1:1:2]                                  | failed  | 0.00002 seconds        |
+./spec/ca/general_spec.rb[1:1:1:1]                                     | failed  | 0.00002 seconds        |
+./spec/ca/general_spec.rb[1:1:1:2]                                     | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:3]                                     | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:4]                                     | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:5]                                     | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:6]                                     | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:7:1]                                   | failed  | 0.00002 seconds        |
+./spec/ca/general_spec.rb[1:1:1:7:2]                                   | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:7:3]                                   | failed  | 0.00001 seconds        |
+./spec/ca/general_spec.rb[1:1:1:8]                                     | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:9]                                     | failed  | 0.00001 seconds        |
+./spec/ca/general_spec.rb[1:1:1:10]                                    | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:11]                                    | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:12]                                    | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:13]                                    | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:14]                                    | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:15]                                    | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:16]                                    | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:17]                                    | failed  | 0 seconds              |
+./spec/ca/general_spec.rb[1:1:1:18]                                    | failed  | 0 seconds              |
+./spec/ca/mixer_spec.rb[1:1:1:1:1]                                     | failed  | 0 seconds              |
+./spec/ca/mixer_spec.rb[1:1:1:1:2]                                     | failed  | 0 seconds              |
+./spec/ca/mixer_spec.rb[1:1:1:1:3]                                     | failed  | 0 seconds              |
+./spec/ca/mixer_spec.rb[1:1:1:2:1]                                     | failed  | 0 seconds              |
+./spec/ca/mixer_spec.rb[1:1:1:2:2]                                     | failed  | 0 seconds              |
+./spec/ca/mixer_spec.rb[1:1:1:2:3]                                     | failed  | 0 seconds              |
+./spec/ca/mixer_spec.rb[1:1:1:3:1]                                     | failed  | 0 seconds              |
+./spec/ca/mixer_spec.rb[1:1:1:3:2]                                     | failed  | 0 seconds              |
+./spec/ca/mixer_spec.rb[1:1:1:3:3]                                     | failed  | 0 seconds              |
+./spec/ca/playlist_spec.rb[1:1:1]                                      | failed  | 0 seconds              |
+./spec/ca/profile_spec.rb[1:1:1]                                       | failed  | 0 seconds              |
+./spec/ca/search_spec.rb[1:1:1:1]                                      | failed  | 0 seconds              |
+./spec/ca/search_spec.rb[1:1:1:2]                                      | failed  | 0 seconds              |
+./spec/ca/search_spec.rb[1:1:1:3]                                      | failed  | 0 seconds              |
+./spec/ca/search_spec.rb[1:1:1:4]                                      | failed  | 0 seconds              |
+./spec/ca/search_spec.rb[1:1:1:5]                                      | failed  | 0.00002 seconds        |
+./spec/ca/settings_spec.rb[1:1:1:1:1]                                  | failed  | 0.00001 seconds        |
+./spec/ca/settings_spec.rb[1:1:1:1:2]                                  | failed  | 0 seconds              |
+./spec/ca/settings_spec.rb[1:1:1:1:3]                                  | failed  | 0 seconds              |
+./spec/ca/settings_spec.rb[1:1:1:1:4]                                  | failed  | 0 seconds              |
+./spec/ca/settings_spec.rb[1:1:1:1:5]                                  | failed  | 0 seconds              |
+./spec/ca/settings_spec.rb[1:1:1:1:6:1]                                | failed  | 0 seconds              |
+./spec/ca/settings_spec.rb[1:1:1:1:6:2]                                | failed  | 0 seconds              |
+./spec/ca/settings_spec.rb[1:1:1:1:6:3]                                | failed  | 0 seconds              |
+./spec/ca/settings_spec.rb[1:1:1:1:7:1]                                | failed  | 0 seconds              |
+./spec/ca/settings_spec.rb[1:1:1:1:8:1]                                | failed  | 0 seconds              |
+./spec/ca/share_spec.rb[1:1:1:1]                                       | failed  | 0 seconds              |
+./spec/ca/share_spec.rb[1:1:1:2]                                       | failed  | 0 seconds              |
+./spec/ca/share_spec.rb[1:1:1:3]                                       | failed  | 0 seconds              |
+./spec/ca/test.rb[1:1:1]                                               | passed  | 1 minute 1.69 seconds  |
+./spec/de/favorite_spec.rb[1:1:1:1:1]                                  | failed  | 0 seconds              |
+./spec/de/favorite_spec.rb[1:1:1:1:2]                                  | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:1]                                     | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:2]                                     | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:3]                                     | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:4]                                     | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:5]                                     | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:6]                                     | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:7:1]                                   | failed  | 0.00004 seconds        |
+./spec/de/general_spec.rb[1:1:1:7:2]                                   | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:7:3]                                   | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:8:1]                                   | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:8:2]                                   | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:8:3]                                   | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:8:4]                                   | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:8:5]                                   | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:9]                                     | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:10]                                    | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:11]                                    | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:12]                                    | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:13]                                    | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:14]                                    | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:15]                                    | failed  | 0 seconds              |
+./spec/de/general_spec.rb[1:1:1:16]                                    | failed  | 0 seconds              |
+./spec/de/mixer_spec.rb[1:1:1:1:1]                                     | failed  | 0 seconds              |
+./spec/de/mixer_spec.rb[1:1:1:1:2]                                     | failed  | 0 seconds              |
+./spec/de/mixer_spec.rb[1:1:1:1:3]                                     | failed  | 0.00001 seconds        |
+./spec/de/mixer_spec.rb[1:1:1:2:1]                                     | failed  | 0 seconds              |
+./spec/de/mixer_spec.rb[1:1:1:2:2]                                     | failed  | 0 seconds              |
+./spec/de/mixer_spec.rb[1:1:1:2:3]                                     | failed  | 0 seconds              |
+./spec/de/mixer_spec.rb[1:1:1:3:1]                                     | failed  | 0 seconds              |
+./spec/de/mixer_spec.rb[1:1:1:3:2]                                     | failed  | 0 seconds              |
+./spec/de/mixer_spec.rb[1:1:1:3:3]                                     | failed  | 0 seconds              |
+./spec/de/playlist_spec.rb[1:1:1]                                      | failed  | 0 seconds              |
+./spec/de/profile_spec.rb[1:1:1]                                       | failed  | 0 seconds              |
+./spec/de/search_spec.rb[1:1:1:1]                                      | failed  | 0 seconds              |
+./spec/de/search_spec.rb[1:1:1:2]                                      | failed  | 0 seconds              |
+./spec/de/search_spec.rb[1:1:1:3]                                      | failed  | 0 seconds              |
+./spec/de/search_spec.rb[1:1:1:4]                                      | failed  | 0 seconds              |
+./spec/de/search_spec.rb[1:1:1:5]                                      | failed  | 0 seconds              |
+./spec/de/share_spec.rb[1:1:1:1]                                       | failed  | 0 seconds              |
+./spec/de/share_spec.rb[1:1:1:2]                                       | failed  | 0 seconds              |
+./spec/de/share_spec.rb[1:1:1:3]                                       | failed  | 0 seconds              |
+./spec/de/test.rb[1:1:1]                                               | passed  | 59.67 seconds          |
+./spec/eu/favorite_spec.rb[1:1:1:1:1]                                  | failed  | 0 seconds              |
+./spec/eu/favorite_spec.rb[1:1:1:1:2]                                  | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:1]                                     | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:2]                                     | failed  | 0.00001 seconds        |
+./spec/eu/general_spec.rb[1:1:1:3]                                     | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:4]                                     | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:5]                                     | failed  | 0.00002 seconds        |
+./spec/eu/general_spec.rb[1:1:1:6]                                     | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:7]                                     | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:8:1]                                   | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:8:2]                                   | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:8:3]                                   | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:9]                                     | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:10]                                    | failed  | 0.00001 seconds        |
+./spec/eu/general_spec.rb[1:1:1:11]                                    | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:12]                                    | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:13]                                    | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:14]                                    | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:15]                                    | failed  | 0.00001 seconds        |
+./spec/eu/general_spec.rb[1:1:1:16]                                    | failed  | 0 seconds              |
+./spec/eu/general_spec.rb[1:1:1:17]                                    | failed  | 0 seconds              |
+./spec/eu/language_spec.rb[1:1:1:1]                                    | failed  | 0 seconds              |
+./spec/eu/language_spec.rb[1:1:1:2]                                    | failed  | 0 seconds              |
+./spec/eu/language_spec.rb[1:1:1:3]                                    | failed  | 0 seconds              |
+./spec/eu/language_spec.rb[1:1:1:4]                                    | failed  | 0 seconds              |
+./spec/eu/language_spec.rb[1:1:1:5]                                    | failed  | 0 seconds              |
+./spec/eu/language_spec.rb[1:1:1:6]                                    | failed  | 0 seconds              |
+./spec/eu/mixer_spec.rb[1:1:1:1:1]                                     | failed  | 0 seconds              |
+./spec/eu/mixer_spec.rb[1:1:1:1:2]                                     | failed  | 0.00001 seconds        |
+./spec/eu/mixer_spec.rb[1:1:1:1:3]                                     | failed  | 0 seconds              |
+./spec/eu/mixer_spec.rb[1:1:1:2:1]                                     | failed  | 0 seconds              |
+./spec/eu/mixer_spec.rb[1:1:1:2:2]                                     | failed  | 0.00001 seconds        |
+./spec/eu/mixer_spec.rb[1:1:1:2:3]                                     | failed  | 0 seconds              |
+./spec/eu/mixer_spec.rb[1:1:1:3:1]                                     | failed  | 0 seconds              |
+./spec/eu/mixer_spec.rb[1:1:1:3:2]                                     | failed  | 0 seconds              |
+./spec/eu/mixer_spec.rb[1:1:1:3:3]                                     | failed  | 0 seconds              |
+./spec/eu/playlist_spec.rb[1:1:1]                                      | failed  | 0 seconds              |
+./spec/eu/profile_spec.rb[1:1:1]                                       | failed  | 0 seconds              |
+./spec/eu/search_spec.rb[1:1:1:1]                                      | failed  | 0 seconds              |
+./spec/eu/search_spec.rb[1:1:1:2]                                      | failed  | 0 seconds              |
+./spec/eu/search_spec.rb[1:1:1:3]                                      | failed  | 0 seconds              |
+./spec/eu/search_spec.rb[1:1:1:4]                                      | failed  | 0.00003 seconds        |
+./spec/eu/search_spec.rb[1:1:1:5]                                      | failed  | 0 seconds              |
+./spec/eu/share_spec.rb[1:1:1:1]                                       | failed  | 0 seconds              |
+./spec/eu/share_spec.rb[1:1:1:2]                                       | failed  | 0 seconds              |
+./spec/eu/share_spec.rb[1:1:1:3]                                       | failed  | 0 seconds              |
+./spec/eu/test.rb[1:1:1]                                               | passed  | 1 minute 10.91 seconds |
+./spec/hofer/favorite_spec.rb[1:1:1:1:1]                               | failed  | 0.00001 seconds        |
+./spec/hofer/favorite_spec.rb[1:1:1:1:2]                               | failed  | 0.00001 seconds        |
+./spec/hofer/general_spec.rb[1:1:1:1]                                  | failed  | 0.00001 seconds        |
+./spec/hofer/general_spec.rb[1:1:1:2]                                  | failed  | 0.00002 seconds        |
+./spec/hofer/general_spec.rb[1:1:1:3]                                  | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:4]                                  | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:5]                                  | failed  | 0.00002 seconds        |
+./spec/hofer/general_spec.rb[1:1:1:6]                                  | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:7:1]                                | failed  | 0.00003 seconds        |
+./spec/hofer/general_spec.rb[1:1:1:7:2]                                | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:7:3]                                | failed  | 0.00002 seconds        |
+./spec/hofer/general_spec.rb[1:1:1:7:4]                                | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:7:5]                                | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:7:6]                                | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:7:7]                                | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:7:8]                                | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:7:9]                                | failed  | 0.00002 seconds        |
+./spec/hofer/general_spec.rb[1:1:1:7:10]                               | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:7:11]                               | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:7:12]                               | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:7:13]                               | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:7:14]                               | failed  | 0.00001 seconds        |
+./spec/hofer/general_spec.rb[1:1:1:7:15]                               | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:7:16:1]                             | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:7:16:2]                             | failed  | 0 seconds              |
+./spec/hofer/general_spec.rb[1:1:1:7:16:3]                             | failed  | 0 seconds              |
+./spec/hofer/mixer_spec.rb[1:1:1:1:1]                                  | failed  | 0.00001 seconds        |
+./spec/hofer/mixer_spec.rb[1:1:1:1:2]                                  | failed  | 0.00001 seconds        |
+./spec/hofer/mixer_spec.rb[1:1:1:1:3]                                  | failed  | 0.00001 seconds        |
+./spec/hofer/mixer_spec.rb[1:1:1:2:1]                                  | failed  | 0 seconds              |
+./spec/hofer/mixer_spec.rb[1:1:1:2:2]                                  | failed  | 0 seconds              |
+./spec/hofer/mixer_spec.rb[1:1:1:2:3]                                  | failed  | 0.00003 seconds        |
+./spec/hofer/mixer_spec.rb[1:1:1:3:1]                                  | failed  | 0 seconds              |
+./spec/hofer/mixer_spec.rb[1:1:1:3:2]                                  | failed  | 0 seconds              |
+./spec/hofer/mixer_spec.rb[1:1:1:3:3]                                  | failed  | 0 seconds              |
+./spec/hofer/playlist_spec.rb[1:1:1]                                   | failed  | 0.00001 seconds        |
+./spec/hofer/profile_spec.rb[1:1:1]                                    | failed  | 0 seconds              |
+./spec/hofer/search_spec.rb[1:1:1:1]                                   | failed  | 0.00001 seconds        |
+./spec/hofer/search_spec.rb[1:1:1:2]                                   | failed  | 0.00001 seconds        |
+./spec/hofer/search_spec.rb[1:1:1:3]                                   | failed  | 0 seconds              |
+./spec/hofer/search_spec.rb[1:1:1:4]                                   | failed  | 0 seconds              |
+./spec/hofer/search_spec.rb[1:1:1:5]                                   | failed  | 0 seconds              |
+./spec/hofer/share_spec.rb[1:1:1:1]                                    | failed  | 0 seconds              |
+./spec/hofer/share_spec.rb[1:1:1:2]                                    | failed  | 0 seconds              |
+./spec/hofer/share_spec.rb[1:1:1:3]                                    | failed  | 0 seconds              |
+./spec/hofer/test.rb[1:1:1]                                            | passed  | 1 minute 6.82 seconds  |
+./spec/latam/favorite_spec.rb[1:1:1:1:1]                               | failed  | 0 seconds              |
+./spec/latam/favorite_spec.rb[1:1:1:1:2]                               | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:1]                                  | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:2]                                  | failed  | 0.00001 seconds        |
+./spec/latam/general_spec.rb[1:1:1:3]                                  | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:4]                                  | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:5]                                  | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:6]                                  | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:7]                                  | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:8]                                  | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:9]                                  | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:10]                                 | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:11]                                 | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:12]                                 | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:13]                                 | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:14]                                 | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:15]                                 | failed  | 0 seconds              |
+./spec/latam/general_spec.rb[1:1:1:16]                                 | failed  | 0 seconds              |
+./spec/latam/mixer_spec.rb[1:1:1:1:1]                                  | failed  | 0.00001 seconds        |
+./spec/latam/mixer_spec.rb[1:1:1:1:2]                                  | failed  | 0 seconds              |
+./spec/latam/mixer_spec.rb[1:1:1:1:3]                                  | failed  | 0 seconds              |
+./spec/latam/mixer_spec.rb[1:1:1:2:1]                                  | failed  | 0 seconds              |
+./spec/latam/mixer_spec.rb[1:1:1:2:2]                                  | failed  | 0 seconds              |
+./spec/latam/mixer_spec.rb[1:1:1:2:3]                                  | failed  | 0 seconds              |
+./spec/latam/mixer_spec.rb[1:1:1:3:1]                                  | failed  | 0 seconds              |
+./spec/latam/mixer_spec.rb[1:1:1:3:2]                                  | failed  | 0 seconds              |
+./spec/latam/mixer_spec.rb[1:1:1:3:3]                                  | failed  | 0 seconds              |
+./spec/latam/playlist_spec.rb[1:1:1]                                   | failed  | 0 seconds              |
+./spec/latam/profile_spec.rb[1:1:1]                                    | failed  | 0 seconds              |
+./spec/latam/search_spec.rb[1:1:1:1]                                   | failed  | 0 seconds              |
+./spec/latam/search_spec.rb[1:1:1:2]                                   | failed  | 0.00004 seconds        |
+./spec/latam/search_spec.rb[1:1:1:3]                                   | failed  | 0 seconds              |
+./spec/latam/search_spec.rb[1:1:1:4]                                   | failed  | 0 seconds              |
+./spec/latam/search_spec.rb[1:1:1:5]                                   | failed  | 0 seconds              |
+./spec/latam/share_spec.rb[1:1:1:1]                                    | failed  | 0 seconds              |
+./spec/latam/share_spec.rb[1:1:1:2]                                    | failed  | 0 seconds              |
+./spec/latam/share_spec.rb[1:1:1:3]                                    | failed  | 0 seconds              |
+./spec/latam/test.rb[1:1:1]                                            | passed  | 1 minute 11.49 seconds |
+./spec/uk/favorite_spec.rb[1:1:1:1:1]                                  | failed  | 0 seconds              |
+./spec/uk/favorite_spec.rb[1:1:1:1:2]                                  | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:1]                                     | failed  | 0.00001 seconds        |
+./spec/uk/general_spec.rb[1:1:1:2]                                     | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:3]                                     | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:4]                                     | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:5]                                     | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:6]                                     | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:7:1]                                   | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:7:2]                                   | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:7:3]                                   | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:8]                                     | failed  | 0.00001 seconds        |
+./spec/uk/general_spec.rb[1:1:1:9]                                     | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:10]                                    | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:11]                                    | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:12]                                    | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:13]                                    | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:14]                                    | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:15]                                    | failed  | 0 seconds              |
+./spec/uk/general_spec.rb[1:1:1:16]                                    | failed  | 0 seconds              |
+./spec/uk/mixer_spec.rb[1:1:1:1:1]                                     | failed  | 0.00001 seconds        |
+./spec/uk/mixer_spec.rb[1:1:1:1:2]                                     | failed  | 0 seconds              |
+./spec/uk/mixer_spec.rb[1:1:1:1:3]                                     | failed  | 0 seconds              |
+./spec/uk/mixer_spec.rb[1:1:1:2:1]                                     | failed  | 0 seconds              |
+./spec/uk/mixer_spec.rb[1:1:1:2:2]                                     | failed  | 0 seconds              |
+./spec/uk/mixer_spec.rb[1:1:1:2:3]                                     | failed  | 0 seconds              |
+./spec/uk/mixer_spec.rb[1:1:1:3:1]                                     | failed  | 0 seconds              |
+./spec/uk/mixer_spec.rb[1:1:1:3:2]                                     | failed  | 0 seconds              |
+./spec/uk/mixer_spec.rb[1:1:1:3:3]                                     | failed  | 0 seconds              |
+./spec/uk/playlist_spec.rb[1:1:1]                                      | failed  | 0 seconds              |
+./spec/uk/profile_spec.rb[1:1:1]                                       | failed  | 0 seconds              |
+./spec/uk/search_spec.rb[1:1:1:1]                                      | failed  | 0.00001 seconds        |
+./spec/uk/search_spec.rb[1:1:1:2]                                      | failed  | 0 seconds              |
+./spec/uk/search_spec.rb[1:1:1:3]                                      | failed  | 0 seconds              |
+./spec/uk/search_spec.rb[1:1:1:4]                                      | failed  | 0 seconds              |
+./spec/uk/search_spec.rb[1:1:1:5]                                      | failed  | 0.00007 seconds        |
+./spec/uk/share_spec.rb[1:1:1:1]                                       | failed  | 0 seconds              |
+./spec/uk/share_spec.rb[1:1:1:2]                                       | failed  | 0 seconds              |
+./spec/uk/share_spec.rb[1:1:1:3]                                       | failed  | 0 seconds              |
+./spec/uk/test.rb[1:1:1]                                               | passed  | 34.4 seconds           |
+./spec/us/favorite_spec.rb[1:1:1:1:1]                                  | failed  | 0.00001 seconds        |
+./spec/us/favorite_spec.rb[1:1:1:1:2]                                  | failed  | 0.00001 seconds        |
+./spec/us/general_spec.rb[1:1:1:1]                                     | failed  | 0.00001 seconds        |
+./spec/us/general_spec.rb[1:1:1:2]                                     | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:3]                                     | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:4]                                     | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:5]                                     | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:6]                                     | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:7]                                     | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:8]                                     | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:9:1]                                   | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:9:2]                                   | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:9:3]                                   | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:10]                                    | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:11]                                    | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:12]                                    | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:13]                                    | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:14]                                    | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:15]                                    | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:16]                                    | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:17]                                    | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:18]                                    | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:19]                                    | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:20]                                    | failed  | 0 seconds              |
+./spec/us/general_spec.rb[1:1:1:21]                                    | failed  | 0 seconds              |
+./spec/us/mixer_spec.rb[1:1:1:1:1]                                     | failed  | 0.00001 seconds        |
+./spec/us/mixer_spec.rb[1:1:1:1:2]                                     | failed  | 0 seconds              |
+./spec/us/mixer_spec.rb[1:1:1:1:3]                                     | failed  | 0.00001 seconds        |
+./spec/us/mixer_spec.rb[1:1:1:2:1]                                     | failed  | 0 seconds              |
+./spec/us/mixer_spec.rb[1:1:1:2:2]                                     | failed  | 0 seconds              |
+./spec/us/mixer_spec.rb[1:1:1:2:3]                                     | failed  | 0.00001 seconds        |
+./spec/us/mixer_spec.rb[1:1:1:3:1]                                     | failed  | 0 seconds              |
+./spec/us/mixer_spec.rb[1:1:1:3:2]                                     | failed  | 0 seconds              |
+./spec/us/mixer_spec.rb[1:1:1:3:3]                                     | failed  | 0 seconds              |
+./spec/us/playlist_spec.rb[1:1:1]                                      | failed  | 0.00004 seconds        |
+./spec/us/profile_spec.rb[1:1:1]                                       | failed  | 0.00001 seconds        |
+./spec/us/radio_premier.rb[1:1:1:1]                                    | passed  | 15.93 seconds          |
+./spec/us/radio_premier.rb[1:1:1:2]                                    | failed  | 0.00044 seconds        |
+./spec/us/radio_premier.rb[1:1:1:3]                                    | failed  | 2.93 seconds           |
+./spec/us/radio_premier.rb[1:1:1:4]                                    | failed  | 35.16 seconds          |
+./spec/us/radio_premier.rb[1:1:1:5]                                    | failed  | 30.76 seconds          |
+./spec/us/radio_premier.rb[1:1:1:6]                                    | failed  | 39.79 seconds          |
+./spec/us/radio_premier.rb[1:1:1:7]                                    | passed  | 1.48 seconds           |
+./spec/us/radio_premier.rb[1:1:1:8:1]                                  | unknown |                        |
+./spec/us/radio_premier.rb[1:1:1:8:2]                                  | unknown |                        |
+./spec/us/radio_premier.rb[1:1:1:8:3]                                  | unknown |                        |
+./spec/us/radio_premier.rb[1:1:1:9]                                    | passed  | 3.15 seconds           |
+./spec/us/radio_premier.rb[1:1:1:10]                                   | failed  | 1.5 seconds            |
+./spec/us/radio_premier.rb[1:1:1:11]                                   | unknown |                        |
+./spec/us/radio_premier.rb[1:1:1:12]                                   | unknown |                        |
+./spec/us/radio_premier.rb[1:1:1:13]                                   | unknown |                        |
+./spec/us/radio_premier.rb[1:1:1:14]                                   | unknown |                        |
+./spec/us/radio_premier.rb[1:1:1:15]                                   | unknown |                        |
+./spec/us/radio_premier.rb[1:1:1:16]                                   | unknown |                        |
+./spec/us/radio_premier.rb[1:1:1:17]                                   | unknown |                        |
+./spec/us/radio_premier.rb[1:1:1:18]                                   | unknown |                        |
+./spec/us/radio_premier.rb[1:1:1:19]                                   | unknown |                        |
+./spec/us/radio_premier.rb[1:1:1:20]                                   | unknown |                        |
+./spec/us/search_spec.rb[1:1:1:1]                                      | failed  | 22.2 seconds           |
+./spec/us/search_spec.rb[1:1:1:2]                                      | failed  | 0 seconds              |
+./spec/us/search_spec.rb[1:1:1:3]                                      | failed  | 0 seconds              |
+./spec/us/search_spec.rb[1:1:1:4]                                      | failed  | 0 seconds              |
+./spec/us/search_spec.rb[1:1:1:5]                                      | failed  | 0 seconds              |
+./spec/us/settings_spec.rb[1:1:1:1:1]                                  | failed  | 0 seconds              |
+./spec/us/settings_spec.rb[1:1:1:1:2]                                  | failed  | 0 seconds              |
+./spec/us/settings_spec.rb[1:1:1:1:3]                                  | failed  | 0 seconds              |
+./spec/us/settings_spec.rb[1:1:1:1:4]                                  | failed  | 0 seconds              |
+./spec/us/settings_spec.rb[1:1:1:1:5]                                  | failed  | 0 seconds              |
+./spec/us/settings_spec.rb[1:1:1:1:6:1]                                | failed  | 0 seconds              |
+./spec/us/settings_spec.rb[1:1:1:1:6:2]                                | failed  | 0 seconds              |
+./spec/us/settings_spec.rb[1:1:1:1:6:3]                                | failed  | 0 seconds              |
+./spec/us/settings_spec.rb[1:1:1:1:7:1]                                | failed  | 0 seconds              |
+./spec/us/settings_spec.rb[1:1:1:1:8:1]                                | failed  | 0 seconds              |
+./spec/us/share_spec.rb[1:1:1:1]                                       | failed  | 0 seconds              |
+./spec/us/share_spec.rb[1:1:1:2]                                       | failed  | 0 seconds              |
+./spec/us/share_spec.rb[1:1:1:3]                                       | failed  | 0 seconds              |
+./spec/us/test.rb[1:1:1:1:1]                                           | passed  | 22.3 seconds           |
+./spec/vivo/favorite_spec.rb[1:1:1:1:1]                                | failed  | 0 seconds              |
+./spec/vivo/favorite_spec.rb[1:1:1:1:2]                                | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:1]                                   | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:2]                                   | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:3]                                   | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:4]                                   | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:5]                                   | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:6]                                   | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:7]                                   | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:8]                                   | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:9]                                   | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:10]                                  | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:11]                                  | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:12]                                  | failed  | 0.00002 seconds        |
+./spec/vivo/general_spec.rb[1:1:1:13]                                  | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:14]                                  | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:15]                                  | failed  | 0 seconds              |
+./spec/vivo/general_spec.rb[1:1:1:16]                                  | failed  | 0 seconds              |
+./spec/vivo/mixer_spec.rb[1:1:1:1:1]                                   | failed  | 0 seconds              |
+./spec/vivo/mixer_spec.rb[1:1:1:1:2]                                   | failed  | 0 seconds              |
+./spec/vivo/mixer_spec.rb[1:1:1:1:3]                                   | failed  | 0.00003 seconds        |
+./spec/vivo/mixer_spec.rb[1:1:1:2:1]                                   | failed  | 0 seconds              |
+./spec/vivo/mixer_spec.rb[1:1:1:2:2]                                   | failed  | 0 seconds              |
+./spec/vivo/mixer_spec.rb[1:1:1:2:3]                                   | failed  | 0 seconds              |
+./spec/vivo/mixer_spec.rb[1:1:1:3:1]                                   | failed  | 0 seconds              |
+./spec/vivo/mixer_spec.rb[1:1:1:3:2]                                   | failed  | 0 seconds              |
+./spec/vivo/mixer_spec.rb[1:1:1:3:3]                                   | failed  | 0 seconds              |
+./spec/vivo/playlist_spec.rb[1:1:1]                                    | failed  | 0 seconds              |
+./spec/vivo/profile_spec.rb[1:1:1]                                     | failed  | 0 seconds              |
+./spec/vivo/search_spec.rb[1:1:1:1]                                    | failed  | 0 seconds              |
+./spec/vivo/search_spec.rb[1:1:1:2]                                    | failed  | 0 seconds              |
+./spec/vivo/search_spec.rb[1:1:1:3]                                    | failed  | 0 seconds              |
+./spec/vivo/search_spec.rb[1:1:1:4]                                    | failed  | 0 seconds              |
+./spec/vivo/search_spec.rb[1:1:1:5]                                    | failed  | 0 seconds              |
+./spec/vivo/share_spec.rb[1:1:1:1]                                     | failed  | 0 seconds              |
+./spec/vivo/share_spec.rb[1:1:1:2]                                     | failed  | 0 seconds              |
+./spec/vivo/share_spec.rb[1:1:1:3]                                     | failed  | 0 seconds              |
+./spec/vivo/test.rb[1:1:1]                                             | passed  | 1 minute 0.01 seconds  |
+/Users/Crow/pitch-automated-tests/spec/ca/footer_spec.rb[1:1:1]        | passed  | 41.25 seconds          |
+/Users/Crow/pitch-automated-tests/spec/ca/footer_spec.rb[1:1:2]        | passed  | 3.48 seconds           |
+/Users/Crow/pitch-automated-tests/spec/ca/footer_spec.rb[1:1:3]        | passed  | 3.04 seconds           |
+/Users/Crow/pitch-automated-tests/spec/ca/footer_spec.rb[1:1:4]        | passed  | 2.7 seconds            |
+/Users/Crow/pitch-automated-tests/spec/ca/footer_spec.rb[1:1:5]        | passed  | 2.24 seconds           |
+/Users/Crow/pitch-automated-tests/spec/ca/footer_spec.rb[1:1:6]        | passed  | 7.19 seconds           |
+/Users/Crow/pitch-automated-tests/spec/ca/footer_spec.rb[1:1:7]        | passed  | 3.73 seconds           |
+/Users/Crow/pitch-automated-tests/spec/ca/footer_spec.rb[1:1:8]        | passed  | 3.8 seconds            |
+/Users/Crow/pitch-automated-tests/spec/ca/footer_spec.rb[1:1:9]        | passed  | 2.72 seconds           |
+/Users/Crow/pitch-automated-tests/spec/ca/footer_spec.rb[1:1:10]       | passed  | 3.23 seconds           |
+/Users/Crow/pitch-automated-tests/spec/ca/footer_spec.rb[1:1:11]       | passed  | 2.29 seconds           |
+/Users/Crow/pitch-automated-tests/spec/ca/footer_spec.rb[1:1:12]       | passed  | 2.49 seconds           |
+/Users/Crow/pitch-automated-tests/spec/eu/footer_spec.rb[1:1:1]        | passed  | 6.76 seconds           |
+/Users/Crow/pitch-automated-tests/spec/eu/footer_spec.rb[1:1:2]        | passed  | 3.8 seconds            |
+/Users/Crow/pitch-automated-tests/spec/eu/footer_spec.rb[1:1:3]        | passed  | 3.47 seconds           |
+/Users/Crow/pitch-automated-tests/spec/eu/footer_spec.rb[1:1:4]        | passed  | 4.45 seconds           |
+/Users/Crow/pitch-automated-tests/spec/eu/footer_spec.rb[1:1:5]        | passed  | 3.4 seconds            |
+/Users/Crow/pitch-automated-tests/spec/eu/footer_spec.rb[1:1:6]        | passed  | 6.01 seconds           |
+/Users/Crow/pitch-automated-tests/spec/eu/footer_spec.rb[1:1:7]        | passed  | 4.8 seconds            |
+/Users/Crow/pitch-automated-tests/spec/eu/footer_spec.rb[1:1:8]        | passed  | 3.71 seconds           |
+/Users/Crow/pitch-automated-tests/spec/eu/footer_spec.rb[1:1:9]        | passed  | 4.33 seconds           |
+/Users/Crow/pitch-automated-tests/spec/eu/footer_spec.rb[1:1:10]       | passed  | 3.83 seconds           |
+/Users/Crow/pitch-automated-tests/spec/eu/footer_spec.rb[1:1:11]       | passed  | 3.86 seconds           |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:1]  | passed  | 4.66 seconds           |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:2]  | passed  | 2.14 seconds           |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:3]  | passed  | 3.96 seconds           |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:4]  | passed  | 1.98 seconds           |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:5]  | passed  | 2.61 seconds           |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:6]  | passed  | 2.27 seconds           |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:7]  | passed  | 1 minute 4.07 seconds  |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:8]  | passed  | 2.88 seconds           |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:9]  | passed  | 2.7 seconds            |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:10] | passed  | 4.6 seconds            |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:11] | passed  | 2.95 seconds           |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:12] | passed  | 2.59 seconds           |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:13] | passed  | 2.54 seconds           |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:14] | passed  | 2.6 seconds            |
+/Users/Crow/pitch-automated-tests/spec/us/footer_links_spec.rb[1:1:15] | passed  | 3.71 seconds           |
