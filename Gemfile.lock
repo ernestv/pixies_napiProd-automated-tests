@@ -38,7 +38,7 @@ GEM
     pony (1.13.1)
       mail (>= 2.0)
     psych (3.1.0)
-    rack (2.2.2)
+    rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rake (13.0.1)
